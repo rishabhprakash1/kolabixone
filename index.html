@@ -76,7 +76,8 @@
 ════════════════════════════════════════════════ -->
 <section class="hero">
   <div class="container">
-    <div class="hero-content" style="max-width:700px">
+    <div class="hero-inner">
+    <div class="hero-content">
       <div class="badge badge-white mb-3 fade-in">
         <i class="fas fa-star"></i> Trusted by Fortune 500 Companies
       </div>
@@ -106,7 +107,187 @@
           <span class="hero-stat-label">Support</span>
         </div>
       </div>
+    </div><!-- /hero-content -->
+
+    <!-- AI Agent Illustration -->
+    <div class="hero-visual fade-in fade-in-delay-2">
+      <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" class="ai-illustration" aria-hidden="true">
+        <defs>
+          <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#5851DB" stop-opacity="0.28"/>
+            <stop offset="100%" stop-color="#5851DB" stop-opacity="0"/>
+          </radialGradient>
+          <filter id="glf" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="3.5" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="bgl" x="-80%" y="-80%" width="260%" height="260%">
+            <feGaussianBlur stdDeviation="12" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- Ambient glow -->
+        <circle cx="240" cy="240" r="205" fill="url(#bgGlow)"/>
+
+        <!-- Inner ring CCW -->
+        <circle cx="240" cy="240" r="112" stroke="rgba(51,217,178,0.18)" stroke-width="1.5" stroke-dasharray="5 9" fill="none">
+          <animateTransform attributeName="transform" type="rotate" from="0 240 240" to="-360 240 240" dur="18s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Data lines (center → nodes) -->
+        <line x1="240" y1="240" x2="240" y2="85"  stroke="rgba(88,81,219,0.35)"  stroke-width="1.5" stroke-dasharray="5 5" class="dline dl1"/>
+        <line x1="240" y1="240" x2="374" y2="163" stroke="rgba(255,168,74,0.35)" stroke-width="1.5" stroke-dasharray="5 5" class="dline dl2"/>
+        <line x1="240" y1="240" x2="374" y2="317" stroke="rgba(51,217,178,0.35)" stroke-width="1.5" stroke-dasharray="5 5" class="dline dl3"/>
+        <line x1="240" y1="240" x2="240" y2="395" stroke="rgba(255,87,118,0.35)" stroke-width="1.5" stroke-dasharray="5 5" class="dline dl4"/>
+        <line x1="240" y1="240" x2="106" y2="317" stroke="rgba(69,188,255,0.35)" stroke-width="1.5" stroke-dasharray="5 5" class="dline dl5"/>
+        <line x1="240" y1="240" x2="106" y2="163" stroke="rgba(232,88,219,0.35)" stroke-width="1.5" stroke-dasharray="5 5" class="dline dl6"/>
+
+        <!-- Outer ring CW -->
+        <circle cx="240" cy="240" r="168" stroke="rgba(88,81,219,0.2)" stroke-width="1.5" stroke-dasharray="8 7" fill="none">
+          <animateTransform attributeName="transform" type="rotate" from="0 240 240" to="360 240 240" dur="30s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- NODE 1: Top — Neural AI (Purple) -->
+        <g class="svgnode sn1" transform="translate(240,85)">
+          <circle r="30" fill="#12122A" stroke="#5851DB" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(88,81,219,0.1)"/>
+          <path d="M-11 3 Q-5-8 0 3 Q5 14 11 3" stroke="#7B75E8" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M-15-2 Q-9-13-3-2 Q3 9 9-2 Q15-13 15-2" stroke="rgba(88,81,219,0.45)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <text y="-17" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">AI</text>
+        </g>
+
+        <!-- NODE 2: Top-right — Code (Orange) -->
+        <g class="svgnode sn2" transform="translate(374,163)">
+          <circle r="30" fill="#12122A" stroke="#FFA84A" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(255,168,74,0.1)"/>
+          <text text-anchor="middle" dominant-baseline="middle" font-family="'Courier New',monospace" font-size="16" font-weight="700" fill="#FFA84A">&lt;/&gt;</text>
+          <text y="-18" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">DEV</text>
+        </g>
+
+        <!-- NODE 3: Bottom-right — Chat (Teal) -->
+        <g class="svgnode sn3" transform="translate(374,317)">
+          <circle r="30" fill="#12122A" stroke="#33D9B2" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(51,217,178,0.1)"/>
+          <rect x="-12" y="-12" width="18" height="13" rx="4" fill="none" stroke="#33D9B2" stroke-width="1.5"/>
+          <rect x="-5" y="3" width="15" height="11" rx="4" fill="none" stroke="rgba(51,217,178,0.55)" stroke-width="1.5"/>
+          <circle cx="-2" cy="-5.5" r="1.5" fill="#33D9B2" opacity="0.7"/>
+          <circle cx="3"  cy="-5.5" r="1.5" fill="#33D9B2" opacity="0.7"/>
+          <circle cx="8"  cy="-5.5" r="1.5" fill="#33D9B2" opacity="0.7"/>
+          <text y="-19" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">CHAT</text>
+        </g>
+
+        <!-- NODE 4: Bottom — Analytics (Pink) -->
+        <g class="svgnode sn4" transform="translate(240,395)">
+          <circle r="30" fill="#12122A" stroke="#FF5776" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(255,87,118,0.1)"/>
+          <rect x="-13" y="-4"  width="7" height="11" rx="1.5" fill="#FF5776" opacity="0.65"/>
+          <rect x="-3"  y="-11" width="7" height="18" rx="1.5" fill="#FF5776"/>
+          <rect x="7"   y="-7"  width="7" height="14" rx="1.5" fill="#FF5776" opacity="0.8"/>
+          <line x1="-15" y1="8" x2="15" y2="8" stroke="rgba(255,87,118,0.4)" stroke-width="1"/>
+          <text y="21" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">DATA</text>
+        </g>
+
+        <!-- NODE 5: Bottom-left — Automation (Blue) -->
+        <g class="svgnode sn5" transform="translate(106,317)">
+          <circle r="30" fill="#12122A" stroke="#45BCFF" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(69,188,255,0.1)"/>
+          <circle r="7" fill="none" stroke="#45BCFF" stroke-width="1.5"/>
+          <circle r="3.5" fill="#45BCFF" opacity="0.9"/>
+          <rect x="-2.5" y="-13.5" width="5" height="6" rx="1.5" fill="#45BCFF"/>
+          <rect x="-2.5" y="7.5"   width="5" height="6" rx="1.5" fill="#45BCFF"/>
+          <rect x="-13.5" y="-2.5" width="6" height="5" rx="1.5" fill="#45BCFF"/>
+          <rect x="7.5"   y="-2.5" width="6" height="5" rx="1.5" fill="#45BCFF"/>
+          <text y="-18" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">AUTO</text>
+        </g>
+
+        <!-- NODE 6: Top-left — Secure (Pink-purple) -->
+        <g class="svgnode sn6" transform="translate(106,163)">
+          <circle r="30" fill="#12122A" stroke="#E858DB" stroke-width="1.5"/>
+          <circle r="25" fill="rgba(232,88,219,0.1)"/>
+          <rect x="-9" y="-1" width="18" height="14" rx="3" fill="none" stroke="#E858DB" stroke-width="1.5"/>
+          <path d="M-5-1 V-7 Q0-13 5-7 V-1" fill="none" stroke="#E858DB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cy="6" r="2.5" fill="#E858DB"/>
+          <text y="-18" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.45)" letter-spacing="0.8">SECURE</text>
+        </g>
+
+        <!-- CENTRAL AI AGENT -->
+        <g filter="url(#bgl)">
+          <!-- Outer pulse ring -->
+          <circle cx="240" cy="240" r="80" stroke="rgba(88,81,219,0.2)" stroke-width="2" fill="none">
+            <animate attributeName="r" values="76;86;76" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;0.08;0.5" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <!-- Inner pulse ring -->
+          <circle cx="240" cy="240" r="72" stroke="rgba(88,81,219,0.35)" stroke-width="2" fill="none">
+            <animate attributeName="r" values="68;74;68" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <!-- Body -->
+          <circle cx="240" cy="240" r="65" fill="#12122A" stroke="#5851DB" stroke-width="2"/>
+          <circle cx="240" cy="240" r="61" fill="rgba(88,81,219,0.07)"/>
+          <!-- Hex face plate -->
+          <polygon points="240,207 264,220 264,248 240,261 216,248 216,220" fill="none" stroke="rgba(88,81,219,0.4)" stroke-width="1.5"/>
+          <!-- Circuit stub lines -->
+          <line x1="207" y1="223" x2="218" y2="223" stroke="rgba(88,81,219,0.5)"  stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="262" y1="223" x2="273" y2="223" stroke="rgba(88,81,219,0.5)"  stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="197" y1="240" x2="213" y2="240" stroke="rgba(255,168,74,0.45)" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="267" y1="240" x2="283" y2="240" stroke="rgba(255,168,74,0.45)" stroke-width="1.5" stroke-linecap="round"/>
+          <!-- Corner dots -->
+          <circle cx="214" cy="214" r="2.5" fill="#5851DB" opacity="0.7"/>
+          <circle cx="266" cy="214" r="2.5" fill="#5851DB" opacity="0.7"/>
+          <circle cx="214" cy="266" r="2.5" fill="#FFA84A" opacity="0.6"/>
+          <circle cx="266" cy="266" r="2.5" fill="#FFA84A" opacity="0.6"/>
+          <!-- Eyes -->
+          <circle cx="229" cy="232" r="7" fill="rgba(51,217,178,0.12)" stroke="#33D9B2" stroke-width="1"/>
+          <circle cx="251" cy="232" r="7" fill="rgba(51,217,178,0.12)" stroke="#33D9B2" stroke-width="1"/>
+          <circle cx="229" cy="232" r="3.5" fill="#33D9B2" filter="url(#glf)">
+            <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="251" cy="232" r="3.5" fill="#33D9B2" filter="url(#glf)">
+            <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="0.3s" repeatCount="indefinite"/>
+          </circle>
+          <!-- Smile -->
+          <path d="M226 248 Q240 259 254 248" stroke="#FFA84A" stroke-width="2" fill="none" stroke-linecap="round" filter="url(#glf)"/>
+          <!-- Antenna -->
+          <line x1="240" y1="175" x2="240" y2="209" stroke="rgba(88,81,219,0.45)" stroke-width="1.5"/>
+          <circle cx="240" cy="172" r="4.5" fill="#5851DB" filter="url(#glf)">
+            <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+          </circle>
+          <!-- Ear ports -->
+          <rect x="175" y="232" width="8" height="18" rx="4" fill="#1A1A2E" stroke="#5851DB" stroke-width="1.5"/>
+          <rect x="297" y="232" width="8" height="18" rx="4" fill="#1A1A2E" stroke="#5851DB" stroke-width="1.5"/>
+        </g>
+
+        <!-- Floating particles -->
+        <circle cx="165" cy="118" r="3"   fill="#5851DB">
+          <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="315" cy="105" r="2"   fill="#33D9B2">
+          <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.7s" begin="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="410" cy="240" r="2.5" fill="#FFA84A">
+          <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="352" cy="392" r="2"   fill="#FF5776">
+          <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.9s" begin="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="128" cy="400" r="3"   fill="#45BCFF">
+          <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.1s" begin="0.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="70"  cy="240" r="2"   fill="#E858DB">
+          <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="178" cy="445" r="2"   fill="#5851DB">
+          <animate attributeName="opacity" values="0.3;0.1;0.3" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="302" cy="50"  r="2.5" fill="#FFA84A">
+          <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
     </div>
+
+    </div><!-- /hero-inner -->
   </div>
 </section>
 
