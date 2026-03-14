@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Kolabix – Get in Touch with Our IT Experts</title>
+  <meta name="description" content="Contact Kolabix for custom IT solutions, AI development, and enterprise software. Reach us via email, phone, or WhatsApp. Available 24/7.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .contact-big-card {
+      background: #fff;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 3.5rem 2.5rem;
+      text-align: center;
+      transition: all var(--transition);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-big-card:hover {
+      box-shadow: var(--shadow-xl);
+      transform: translateY(-6px);
+    }
+    .contact-big-icon {
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .contact-big-label {
+      font-size: .85rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 700;
+      margin-bottom: .5rem;
+    }
+    .contact-big-value {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--dark-text);
+      line-height: 1.2;
+      transition: color var(--transition);
+      margin-bottom: 1rem;
+    }
+    .contact-big-value:hover { color: var(--primary-color); }
+    .contact-big-desc {
+      font-size: .88rem;
+      color: var(--gray-text);
+      margin-bottom: 1.5rem;
+      max-width: 240px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></a>
+      <div class="nav-links">
+        <a href="about.html" class="nav-link">About Us</a>
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle">Services &amp; Pricing <i class="fas fa-chevron-down"></i></button>
+          <div class="dropdown-menu">
+            <a href="pricing.html" class="dropdown-item"><i class="fas fa-list-ul"></i> Services &amp; Pricing Overview</a>
+            <a href="digidinez.html" class="dropdown-item"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez – Restaurant Menus</a>
+            <a href="ai-agent-development.html" class="dropdown-item"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents Development</a>
+          </div>
+        </div>
+        <a href="industries.html" class="nav-link">Industries Served</a>
+        <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+      </div>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </nav>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <div class="mobile-nav-section-title">Services &amp; Pricing</div>
+      <a href="pricing.html" class="mobile-nav-sub"><i class="fas fa-list-ul" style="color:var(--primary-color)"></i> Overview</a>
+      <a href="digidinez.html" class="mobile-nav-sub"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez</a>
+      <a href="ai-agent-development.html" class="mobile-nav-sub"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents</a>
+      <a href="industries.html" class="mobile-nav-link">Industries Served</a>
+      <div style="padding:1rem 1.5rem"><a href="contact.html" class="btn btn-primary w-full" style="justify-content:center">Request a Quote</a></div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="padding-bottom:4rem">
+  <div class="container">
+    <div style="text-align:center;max-width:700px;margin:0 auto">
+      <div class="badge badge-white mb-3 fade-in"><i class="fas fa-comments"></i> We're Here for You</div>
+      <h1 class="fade-in fade-in-delay-1">Get In <span class="gradient-text">Touch</span></h1>
+      <p class="fade-in fade-in-delay-2" style="color:rgba(255,255,255,.8);max-width:520px;margin:1rem auto 0">Reach out to us anytime. Our team is available 24/7 to answer your questions and help you build the right solution for your business.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTACT SECTION -->
+<section style="background:var(--light-bg)">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="badge badge-primary">Contact Details</div>
+      <h2>Reach Us <span class="gradient-text">Directly</span></h2>
+      <p>Pick the channel that works best for you. We typically respond within minutes.</p>
+    </div>
+
+    <div class="grid-3" style="gap:2rem;max-width:960px;margin:0 auto 4rem">
+
+      <!-- Email -->
+      <div class="contact-big-card fade-in">
+        <div class="contact-big-icon" style="background:rgba(88,81,219,.1)">
+          <i class="fas fa-envelope" style="color:var(--primary-color)"></i>
+        </div>
+        <div class="contact-big-label" style="color:var(--primary-color)">Email Us</div>
+        <a href="mailto:ops@kolabix.com" class="contact-big-value">ops@kolabix.com</a>
+        <p class="contact-big-desc">For project inquiries, proposals, and business collaborations</p>
+        <a href="mailto:ops@kolabix.com" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Email
+        </a>
+      </div>
+
+      <!-- Phone -->
+      <div class="contact-big-card fade-in fade-in-delay-1">
+        <div class="contact-big-icon" style="background:rgba(51,217,178,.1)">
+          <i class="fas fa-phone-alt" style="color:var(--accent2-color)"></i>
+        </div>
+        <div class="contact-big-label" style="color:var(--accent2-color)">Call Us (US)</div>
+        <a href="tel:+18149292960" class="contact-big-value">+1 (814) 929-2960</a>
+        <p class="contact-big-desc">Speak directly with our IT experts and solution architects</p>
+        <a href="tel:+18149292960" class="btn btn-outline">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="contact-big-card fade-in fade-in-delay-2">
+        <div class="contact-big-icon" style="background:rgba(37,211,102,.1)">
+          <i class="fab fa-whatsapp" style="color:#25D366"></i>
+        </div>
+        <div class="contact-big-label" style="color:#25D366">WhatsApp (India)</div>
+        <a href="https://wa.me/918004978020" target="_blank" rel="noopener" class="contact-big-value">+91 80049 78020</a>
+        <p class="contact-big-desc">Quick responses for Indian clients — message us any time</p>
+        <a href="https://wa.me/918004978020" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Location + hours -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:860px;margin:0 auto" class="fade-in">
+      <div class="card" style="display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:3rem;height:3rem;border-radius:50%;background:rgba(255,168,74,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem">
+          <i class="fas fa-map-marker-alt" style="color:var(--accent-color)"></i>
+        </div>
+        <div>
+          <h4 style="margin-bottom:.5rem">Global Remote Services</h4>
+          <p style="font-size:.88rem">North America • Europe • Asia Pacific</p>
+          <p style="font-size:.83rem;margin-top:.5rem">Registered: A16/102 HARSH UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Thane-401107, Maharashtra, India</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:3rem;height:3rem;border-radius:50%;background:rgba(88,81,219,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.2rem">
+          <i class="fas fa-clock" style="color:var(--primary-color)"></i>
+        </div>
+        <div>
+          <h4 style="margin-bottom:.5rem">Available 24/7</h4>
+          <p style="font-size:.88rem">We operate across time zones to serve our global clientele.</p>
+          <div style="margin-top:.75rem;display:flex;gap:.75rem;flex-wrap:wrap">
+            <span class="badge badge-accent2" style="font-size:.78rem"><i class="fas fa-check"></i> Enterprise Security</span>
+            <span class="badge badge-primary" style="font-size:.78rem"><i class="fas fa-lock"></i> Guaranteed Privacy</span>
+            <span class="badge badge-accent" style="font-size:.78rem"><i class="fas fa-check-circle"></i> GDPR Compliant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES QUICK LINKS -->
+<section style="background:#fff">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="badge badge-accent">What We Can Help With</div>
+      <h2>Our <span class="gradient-text">Services</span></h2>
+    </div>
+    <div class="grid-3" style="gap:1.5rem;max-width:900px;margin:0 auto">
+      <a href="ai-agent-development.html" class="card fade-in" style="text-align:center;color:inherit">
+        <div class="card-icon" style="background:rgba(88,81,219,.1);margin:0 auto 1rem"><i class="fas fa-robot" style="color:var(--primary-color)"></i></div>
+        <h4>AI Agent Development</h4>
+        <p style="font-size:.85rem;margin-top:.5rem">Custom AI agents for customer support, HR, and business automation</p>
+      </a>
+      <a href="pricing.html" class="card fade-in fade-in-delay-1" style="text-align:center;color:inherit">
+        <div class="card-icon" style="background:rgba(51,217,178,.1);margin:0 auto 1rem"><i class="fas fa-code" style="color:var(--accent2-color)"></i></div>
+        <h4>Custom Software</h4>
+        <p style="font-size:.85rem;margin-top:.5rem">Enterprise-grade software tailored to your specific business needs</p>
+      </a>
+      <a href="digidinez.html" class="card fade-in fade-in-delay-2" style="text-align:center;color:inherit">
+        <div class="card-icon" style="background:rgba(255,168,74,.1);margin:0 auto 1rem"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i></div>
+        <h4>DigiDinez</h4>
+        <p style="font-size:.85rem;margin-top:.5rem">Smart QR code menu solution for restaurants — starting ₹899/month</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></div>
+        <p class="footer-desc">Your trusted partner for custom IT solutions. We deliver cutting-edge technology that drives business growth and digital transformation.</p>
+        <a href="mailto:ops@kolabix.com" class="footer-contact-item"><i class="fas fa-envelope"></i> ops@kolabix.com</a>
+        <a href="tel:+18149292960" class="footer-contact-item"><i class="fas fa-phone"></i> +1 (814) 929-2960</a>
+        <a href="https://wa.me/918004978020" target="_blank" rel="noopener" class="footer-contact-item"><i class="fab fa-whatsapp"></i> +91 80049 78020</a>
+        <div class="footer-contact-item"><i class="fas fa-globe"></i> Global Remote Services</div>
+      </div>
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="pricing.html" class="footer-link">Services &amp; Pricing</a>
+        <a href="digidinez.html" class="footer-link">DigiDinez</a>
+        <a href="ai-agent-development.html" class="footer-link">AI Agents</a>
+        <a href="ai-chatbot-solutions.html" class="footer-link">AI Chatbot for SMBs</a>
+        <a href="ai-chatbot-business.html" class="footer-link">AI Chatbot Business</a>
+        <a href="industries.html" class="footer-link">Industries</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+      </div>
+      <div>
+        <p class="footer-heading">Our Services</p>
+        <a href="ai-agent-development.html" class="footer-link">AI Agent Development</a>
+        <a href="pricing.html" class="footer-link">Custom Software Development</a>
+        <a href="pricing.html" class="footer-link">Cloud Solutions</a>
+        <a href="pricing.html" class="footer-link">Data Analytics &amp; AI</a>
+        <a href="pricing.html" class="footer-link">Cybersecurity</a>
+        <a href="contact.html" class="footer-link">24/7 Support</a>
+      </div>
+      <div>
+        <p class="footer-heading">Stay Updated</p>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
+        <form class="newsletter-form" onsubmit="return false">
+          <input type="email" class="newsletter-input" placeholder="Enter your email" aria-label="Email address">
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Kolabix Innovations LLP. Registered address: A16/102 HARSH UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Mira Road, KANAKIA POLICE STATION, Thane, Thane-401107, Maharashtra, India</p>
+      <div class="footer-trust">
+        <div class="footer-trust-item"><i class="fas fa-shield-alt"></i> Enterprise Security</div>
+        <div class="footer-trust-item"><i class="fas fa-headset"></i> 24/7 Support</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
