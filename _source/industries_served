@@ -1,0 +1,798 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>window.LANDING_SITE_ID = 'LS-54ioliz5jv'</script>
+    <script>window.LANDING_SITE_CONTACT_US_URL = 'https://oaojaap5re2buacyhw4cycgvza0shopu.lambda-url.us-east-2.on.aws/'</script>
+    <script src="/public/main.umd.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </noscript>
+    <style>*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*,::after,::before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.visible{visibility:visible}.invisible{visibility:hidden}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.left-0{left:0}.top-0{top:0}.top-full{top:100%}.z-50{z-index:50}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:.5rem}.mr-3{margin-right:.75rem}.mt-16{margin-top:4rem}.mt-2{margin-top:.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-20{height:5rem}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-64{width:16rem}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-2{--tw-translate-y:0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-0{--tw-scale-x:0;--tw-scale-y:0;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-16{gap:4rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-\[var\(--light-border-color\)\]{border-color:var(--light-border-color)}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99 / var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.bg-\[var\(--accent-color\)\]{background-color:var(--accent-color)}.bg-\[var\(--accent2-color\)\]{background-color:var(--accent2-color)}.bg-\[var\(--accent3-color\)\]{background-color:var(--accent3-color)}.bg-\[var\(--dark-background-color\)\]{background-color:var(--dark-background-color)}.bg-\[var\(--primary-color\)\]{background-color:var(--primary-color)}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212 / var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128 / var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity))}.bg-orange-500{--tw-bg-opacity:1;background-color:rgb(249 115 22 / var(--tw-bg-opacity))}.bg-pink-500{--tw-bg-opacity:1;background-color:rgb(236 72 153 / var(--tw-bg-opacity))}.bg-purple-500{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(239 246 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-cyan-50{--tw-gradient-from:#ecfeff var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(236 254 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-gray-50{--tw-gradient-from:#f9fafb var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(249 250 251 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-green-50{--tw-gradient-from:#f0fdf4 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(240 253 244 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-indigo-50{--tw-gradient-from:#eef2ff var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(238 242 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-orange-50{--tw-gradient-from:#fff7ed var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 247 237 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-orange-500{--tw-gradient-from:#f97316 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(249 115 22 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-50{--tw-gradient-from:#fdf2f8 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(253 242 248 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-purple-50{--tw-gradient-from:#faf5ff var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(250 245 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-yellow-50{--tw-gradient-from:#fefce8 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(254 252 232 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-white{--tw-gradient-via-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),#fff var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-blue-100{--tw-gradient-to:#dbeafe var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-cyan-100{--tw-gradient-to:#cffafe var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-gray-100{--tw-gradient-to:#f3f4f6 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-green-100{--tw-gradient-to:#dcfce7 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-indigo-100{--tw-gradient-to:#e0e7ff var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-indigo-50{--tw-gradient-to:#eef2ff var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-orange-100{--tw-gradient-to:#ffedd5 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-pink-100{--tw-gradient-to:#fce7f3 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-purple-100{--tw-gradient-to:#f3e8ff var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-purple-600{--tw-gradient-to:#9333ea var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-red-500{--tw-gradient-to:#ef4444 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-yellow-100{--tw-gradient-to:#fef9c3 var(--tw-gradient-to-position);--tw-gradient-to-position: }.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-8{padding-bottom:2rem}.pl-4{padding-left:1rem}.pt-16{padding-top:4rem}.pt-6{padding-top:1.5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-\[var\(--font-family-body\)\]{font-weight:var(--font-family-body)}.font-\[var\(--font-family-heading\)\]{font-weight:var(--font-family-heading)}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-\[var\(--accent-color\)\]{color:var(--accent-color)}.text-\[var\(--accent2-color\)\]{color:var(--accent2-color)}.text-\[var\(--dark-text-color\)\]{color:var(--dark-text-color)}.text-\[var\(--light-text-color\)\]{color:var(--light-text-color)}.text-\[var\(--primary-button-text-color\)\]{color:var(--primary-button-text-color)}.text-\[var\(--primary-color\)\]{color:var(--primary-color)}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212 / var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity))}.text-indigo-500{--tw-text-opacity:1;color:rgb(99 102 241 / var(--tw-text-opacity))}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22 / var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153 / var(--tw-text-opacity))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247 / var(--tw-text-opacity))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity))}.text-opacity-80{--tw-text-opacity:0.8}.text-opacity-90{--tw-text-opacity:0.9}.placeholder-gray-400::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.opacity-0{opacity:0}.opacity-100{opacity:1}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1),0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1),0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1),0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(0.4,0,0.2,1)}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[var\(--light-background-color\)\]:hover{background-color:var(--light-background-color)}.hover\:bg-\[var\(--primary-button-hover-bg-color\)\]:hover{background-color:var(--primary-button-hover-bg-color)}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.hover\:text-\[var\(--accent2-color\)\]:hover{color:var(--accent2-color)}.hover\:text-\[var\(--primary-color\)\]:hover{color:var(--primary-color)}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1),0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.focus\:border-\[var\(--primary-color\)\]:focus{border-color:var(--primary-color)}.focus\:text-\[var\(--primary-color\)\]:focus{color:var(--primary-color)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-\[var\(--primary-color\)\]:focus{--tw-ring-color:var(--primary-color)}.group:hover .group-hover\:visible{visibility:visible}.group:hover .group-hover\:translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width:640px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width:768px){.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width:1024px){.lg\:col-span-2{grid-column:span 2/span 2}.lg\:flex{display:flex}.lg\:hidden{display:none}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:py-32{padding-top:8rem;padding-bottom:8rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}.opacity-0{opacity:0}.opacity-5{opacity:.05}.opacity-10{opacity:.1}.opacity-15{opacity:.15}.opacity-20{opacity:.2}.opacity-25{opacity:.25}.opacity-30{opacity:.3}.opacity-35{opacity:.35}.opacity-40{opacity:.4}.opacity-45{opacity:.45}.opacity-50{opacity:.5}.opacity-55{opacity:.55}.opacity-60{opacity:.6}.opacity-65{opacity:.65}.opacity-70{opacity:.7}.opacity-75{opacity:.75}.opacity-80{opacity:.8}.opacity-85{opacity:.85}.opacity-90{opacity:.9}.opacity-95{opacity:.95}.opacity-100{opacity:1}</style>
+    <link rel="icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
+<link rel="apple-touch-icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
+    <style>:root { --accent-color: #FFA84A; --accent2-color: #33D9B2; --accent3-color: #FF5776; --accent4-color: #45BCFF; --primary-color: #5851DB; --dark-text-color: #222222; --gray-text-color: #6F6F6F; --button-padding-x: 16px; --button-padding-y: 10px; --font-family-body: Nunito; --light-text-color: #FFFFFF; --dark-border-color: #3C3C4D; --light-border-color: #DFDFDF; --font-family-heading: Poppins; --button-rounded-radius: 6px; --dark-background-color: #1E1E2E; --light-background-color: #F5F5FF; --medium-background-color: #E6E6FB; --primary-button-text-color: #FFFFFF; --secondary-button-bg-color: #E858DB; --secondary-button-text-color: #FFFFFF; --primary-button-hover-bg-color: #3E3BB3; --primary-button-hover-text-color: #FFFFFF; --secondary-button-hover-bg-color: #C241B3; --secondary-button-hover-text-color: #FFFFFF; }</style>
+    
+    
+  </head>
+  <body style="font-family:var(--font-family-body);"><header id="global-header" class="code-section bg-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="/" class="flex items-center">
+          <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e50dc634-6fa2-42dd-dba9-0461818fb100/publicContain" alt="Kolabix Logo" class="h-12" data-media="{&quot;id&quot;:&quot;upload-apple-touch-icon.png&quot;,&quot;src&quot;:&quot;upload&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">About Us</a>
+
+        <!-- Services Dropdown -->
+        <div class="relative group">
+          <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300 flex items-center">
+            Services &amp; Pricing
+            <i class="fas fa-chevron-down ml-2 text-sm group-hover:rotate-180 transition-transform duration-300" aria-hidden="true"></i>
+          </button>
+          <!-- Dropdown Menu -->
+          <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-[var(--light-border-color)] py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
+            <a href="/pricing" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>
+              Services &amp; Pricing Overview
+            </a>
+            <a href="/digidinez" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>
+              DigiDinez - Restaurant Menus
+            </a>
+            <a href="/ai-agent-development" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>
+              AI Agents Development
+            </a>
+          </div>
+        </div>
+
+        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">Industries Served</a>
+        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">Request a Quote</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <div class="lg:hidden">
+        <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] focus:outline-none focus:text-[var(--primary-color)] transition-colors duration-300" data-landingsite-mobile-menu-toggle="">
+          <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="lg:hidden hidden bg-white border-t border-[var(--light-border-color)] py-4" data-landingsite-mobile-menu="">
+      <div class="flex flex-col space-y-4">
+        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">About Us</a>
+
+        <!-- Mobile Services Section -->
+        <div class="px-4">
+          <div class="font-semibold text-[var(--dark-text-color)] py-2 border-b border-[var(--light-border-color)] mb-2">
+            Services &amp; Pricing
+          </div>
+          <div class="space-y-2 pl-4">
+            <a href="/pricing" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>Overview
+            </a>
+            <a href="/digidinez" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>DigiDinez
+            </a>
+            <a href="/ai-agent-development" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>AI
+              Agents
+            </a>
+          </div>
+        </div>
+
+        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">Industries Served</a>
+        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-4 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 mx-4">Request a Quote</a>
+      </div>
+    </div>
+  </div>
+</header><section id="sch4hus" class="code-section bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20 lg:py-32">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 bg-white rounded-full px-6 py-3 shadow-lg mb-8">
+        <i class="fas fa-industry text-blue-600"></i>
+        <span class="text-sm font-semibold text-gray-700">Cross-Industry Expertise</span>
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+        Industries We
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Empower</span>
+      </h1>
+
+      <!-- Description -->
+      <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-12">
+        At Kolabix, we understand that every industry has unique challenges and
+        opportunities. With 28+ years of experience, we've delivered
+        transformative technology solutions across diverse sectors, helping
+        businesses achieve operational excellence and competitive advantage.
+      </p>
+
+      <!-- Key Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">15+</div>
+          <div class="text-sm text-gray-600">Industry Verticals</div>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">50+</div>
+          <div class="text-sm text-gray-600">Projects Delivered</div>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">3</div>
+          <div class="text-sm text-gray-600">Global Markets</div>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">99%</div>
+          <div class="text-sm text-gray-600">Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sjnm4p" class="code-section bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+        Transforming Businesses Across All Industries
+      </h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        From startups to enterprise giants, we deliver industry-specific
+        solutions that drive innovation, efficiency, and growth across every
+        sector.
+      </p>
+    </div>
+
+    <!-- Industries Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Healthcare -->
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-heartbeat text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          Healthcare &amp; Life Sciences
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Revolutionizing patient care with digital health solutions,
+          telemedicine platforms, and data analytics.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-blue-500 text-xs"></i>
+            Electronic Health Records (EHR)
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-blue-500 text-xs"></i>
+            Telemedicine Platforms
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-blue-500 text-xs"></i>
+            Medical Device Integration
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-blue-500 text-xs"></i>
+            HIPAA Compliance Solutions
+          </li>
+        </ul>
+      </div>
+
+      <!-- Financial Services -->
+      <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-university text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">Financial Services</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Secure, scalable fintech solutions including digital banking, payment
+          systems, and blockchain integration.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500 text-xs"></i>
+            Digital Banking Platforms
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500 text-xs"></i>
+            Payment Gateway Integration
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500 text-xs"></i>
+            Risk Management Systems
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500 text-xs"></i>
+            Blockchain Solutions
+          </li>
+        </ul>
+      </div>
+
+      <!-- E-commerce -->
+      <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-shopping-cart text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          E-commerce &amp; Retail
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Complete digital commerce solutions from online stores to inventory
+          management and customer analytics.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-orange-500 text-xs"></i>
+            Custom E-commerce Platforms
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-orange-500 text-xs"></i>
+            Inventory Management
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-orange-500 text-xs"></i>
+            POS Integration
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-orange-500 text-xs"></i>
+            Customer Analytics
+          </li>
+        </ul>
+      </div>
+
+      <!-- Manufacturing -->
+      <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-cogs text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          Manufacturing &amp; Supply Chain
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Industrial IoT, automation, and smart manufacturing solutions for
+          operational excellence.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-purple-500 text-xs"></i>
+            Industrial IoT Implementation
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-purple-500 text-xs"></i>
+            Supply Chain Optimization
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-purple-500 text-xs"></i>
+            Predictive Maintenance
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-purple-500 text-xs"></i>
+            Quality Control Automation
+          </li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div class="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-graduation-cap text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">Education &amp; EdTech</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Transform learning with digital classrooms, LMS platforms, and
+          AI-powered educational tools.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-cyan-500 text-xs"></i>
+            Learning Management Systems
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-cyan-500 text-xs"></i>
+            Virtual Classroom Platforms
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-cyan-500 text-xs"></i>
+            Student Information Systems
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-cyan-500 text-xs"></i>
+            AI Assessment Tools
+          </li>
+        </ul>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-pink-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-building text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          Real Estate &amp; PropTech
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Digital transformation for property management, smart buildings, and
+          real estate marketplaces.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-pink-500 text-xs"></i>
+            Property Management Systems
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-pink-500 text-xs"></i>
+            Smart Building Automation
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-pink-500 text-xs"></i>
+            Real Estate Marketplaces
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-pink-500 text-xs"></i>
+            Virtual Property Tours
+          </li>
+        </ul>
+      </div>
+
+      <!-- Transportation -->
+      <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-truck text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          Transportation &amp; Logistics
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Optimize routes, track shipments, and enhance fleet management with
+          intelligent logistics solutions.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-indigo-500 text-xs"></i>
+            Fleet Management Systems
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-indigo-500 text-xs"></i>
+            Route Optimization
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-indigo-500 text-xs"></i>
+            Real-time Tracking
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-indigo-500 text-xs"></i>
+            Warehouse Management
+          </li>
+        </ul>
+      </div>
+
+      <!-- Energy -->
+      <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-bolt text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">Energy &amp; Utilities</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Smart grid solutions, renewable energy management, and utility
+          optimization systems.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-yellow-500 text-xs"></i>
+            Smart Grid Management
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-yellow-500 text-xs"></i>
+            Energy Monitoring
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-yellow-500 text-xs"></i>
+            Renewable Energy Solutions
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-yellow-500 text-xs"></i>
+            Utility Billing Systems
+          </li>
+        </ul>
+      </div>
+
+      <!-- Government -->
+      <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105">
+        <div class="w-16 h-16 bg-gray-500 rounded-full flex items-center justify-center mb-6">
+          <i class="fas fa-landmark text-2xl text-white"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-4">
+          Government &amp; Public Sector
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Digital governance solutions, citizen services portals, and secure
+          government applications.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-gray-500 text-xs"></i>
+            E-Governance Platforms
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-gray-500 text-xs"></i>
+            Citizen Service Portals
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-gray-500 text-xs"></i>
+            Document Management
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fas fa-check text-gray-500 text-xs"></i>
+            Public Safety Solutions
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="mt-16 text-center">
+      <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
+        <h3 class="text-2xl font-bold mb-4">Don't See Your Industry?</h3>
+        <p class="text-white text-opacity-90 mb-6 max-w-2xl mx-auto">
+          We work across all sectors and adapt our solutions to meet unique
+          industry requirements. Let's discuss how we can transform your
+          business.
+        </p>
+        <a href="/contact" class="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300">
+          <i class="fas fa-comments"></i>
+          Start a Conversation
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sy29rrn" class="code-section bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <!-- Content -->
+      <div>
+        <div class="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-md mb-6">
+          <i class="fas fa-lightbulb text-blue-600"></i>
+          <span class="text-sm font-semibold text-gray-700">Industry-First Innovation</span>
+        </div>
+
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          Our Approach to
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Industry Solutions</span>
+        </h2>
+
+        <p class="text-lg text-gray-600 mb-8">
+          We don't believe in one-size-fits-all solutions. Every industry has
+          unique challenges, regulatory requirements, and growth opportunities.
+          Our team combines deep technical expertise with industry-specific
+          knowledge.
+        </p>
+
+        <!-- Approach Points -->
+        <div class="space-y-6">
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+              <i class="fas fa-search text-white"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">
+                Deep Industry Research
+              </h3>
+              <p class="text-gray-600 text-sm">
+                We invest time understanding your industry's pain points,
+                regulatory landscape, and competitive dynamics.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+              <i class="fas fa-users text-white"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">
+                Cross-Functional Teams
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Our teams include industry experts, technical architects, and
+                domain specialists who understand both technology and business.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
+              <i class="fas fa-shield-alt text-white"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">
+                Compliance &amp; Security First
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Every solution is built with industry-specific compliance
+                requirements and security standards from the ground up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats & Features -->
+      <div class="space-y-8">
+        <!-- Success Metrics -->
+        <div class="bg-white rounded-2xl shadow-xl p-8">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">
+            Proven Track Record
+          </h3>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-blue-600 mb-2">28+</div>
+              <div class="text-sm text-gray-600">Years Experience</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-blue-600 mb-2">50+</div>
+              <div class="text-sm text-gray-600">Projects Delivered</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-blue-600 mb-2">15+</div>
+              <div class="text-sm text-gray-600">Industries Served</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-blue-600 mb-2">99%</div>
+              <div class="text-sm text-gray-600">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology Excellence -->
+        <div class="bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
+          <h3 class="text-xl font-bold mb-6">Technology Excellence</h3>
+
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>Cloud-Native Architecture</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>AI/ML Integration</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>Microservices Design</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>DevOps Automation</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>API-First Development</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-white text-opacity-80"></i>
+              <span>Security by Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Leadership -->
+        <div class="bg-white rounded-2xl shadow-xl p-8">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+              <i class="fas fa-graduation-cap text-white text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-gray-900">Global Leadership</h3>
+              <p class="text-gray-600 text-sm">
+                Fortune 500 &amp; Top Business School Alumni
+              </p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm">
+            Our leadership team brings together decades of Fortune 500
+            experience with world-class education from premier global business
+            schools including Wharton, INSEAD, and Stanford.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="global-footer" class="code-section bg-[var(--dark-background-color)] text-[var(--light-text-color)] pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Main Footer Content -->
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
+      <!-- Company Info -->
+      <div class="lg:col-span-2">
+        <div class="mb-6">
+          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-4 text-white">
+            Kolabix
+          </h3>
+          <p class="text-gray-300 font-[var(--font-family-body)] text-lg leading-relaxed max-w-md">
+            Your trusted partner for custom IT solutions. We deliver
+            cutting-edge technology that drives business growth and digital
+            transformation.
+          </p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--primary-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-envelope text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Email</div>
+              <a href="mailto:ops@kolabix.com" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">ops@kolabix.com</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent2-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-phone text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Phone</div>
+              <a href="tel:+18149292960" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+1 (814) 929-2960</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent-color)] rounded-lg flex items-center justify-center">
+              <i class="fab fa-whatsapp text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">WhatsApp</div>
+              <a href="https://wa.me/918004978020" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+91 80049 78020</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent3-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-map-marker-alt text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Location</div>
+              <span class="text-white">Global Remote Services</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
+          Quick Links
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="/" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Home</a>
+          </li>
+          <li>
+            <a href="/about" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">About Us</a>
+          </li>
+          <li>
+            <a href="/pricing" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Services &amp; Pricing</a>
+          </li>
+          <li>
+            <a href="/digidinez" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">DigiDinez</a>
+          </li>
+          <li>
+            <a href="/ai-agent-development" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Agents</a>
+          </li>
+          <li>
+            <a href="/ai-chatbot-solutions" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot for SMBs</a>
+          </li>
+          <li>
+            <a href="/ai-chatbot-business" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot Business</a>
+          </li>
+          <li>
+            <a href="/industries" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Industries</a>
+          </li>
+          <li>
+            <a href="/contact" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Contact</a>
+          </li>
+          <li>
+            <a href="/privacy-policy" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
+          Our Services
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">AI Agent Development</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Custom Software Development</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Cloud Solutions</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Data Analytics &amp; AI</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Cybersecurity</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">24/7 Support</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="border-t border-gray-700 pt-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-2 text-white">
+            Stay Updated
+          </h3>
+          <p class="text-gray-300 font-[var(--font-family-body)]">
+            Get the latest news about technology trends and our services.
+          </p>
+        </div>
+        <div>
+          <form class="flex gap-2" data-landingsite-contact-form="">
+            <input type="email" name="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-[var(--primary-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors duration-300">
+            <button type="submit" class="bg-[var(--primary-color)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-gray-700 pt-6">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400 text-sm font-[var(--font-family-body)]">
+          © 2026 Kolabix Innovations LLP. Registered address: A16/102 HARSH
+          UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Mira Road, KANAKIA POLICE
+          STATION, Thane, Thane-401107, Maharashtra, India
+        </p>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-shield-alt text-[var(--accent2-color)]" aria-hidden="true"></i>
+            <span>Enterprise Security</span>
+          </div>
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-clock text-[var(--accent-color)]" aria-hidden="true"></i>
+            <span>24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script></body>
+</html>
