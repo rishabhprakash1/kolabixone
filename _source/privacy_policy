@@ -1,0 +1,718 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>window.LANDING_SITE_ID = 'LS-54ioliz5jv'</script>
+    <script>window.LANDING_SITE_CONTACT_US_URL = 'https://oaojaap5re2buacyhw4cycgvza0shopu.lambda-url.us-east-2.on.aws/'</script>
+    <script src="/public/main.umd.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </noscript>
+    <style>*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*,::after,::before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.visible{visibility:visible}.invisible{visibility:hidden}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-20{bottom:-5rem}.-left-20{left:-5rem}.-right-40{right:-10rem}.-top-40{top:-10rem}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.right-1\/4{right:25%}.top-0{top:0}.top-1\/2{top:50%}.top-full{top:100%}.z-10{z-index:10}.z-50{z-index:50}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.my-6{margin-top:1.5rem;margin-bottom:1.5rem}.mb-0{margin-bottom:0}.mb-1{margin-bottom:.25rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:.5rem}.mr-2{margin-right:.5rem}.mr-3{margin-right:.75rem}.mr-4{margin-right:1rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-20{height:5rem}.h-60{height:15rem}.h-80{height:20rem}.w-10{width:2.5rem}.w-20{width:5rem}.w-60{width:15rem}.w-64{width:16rem}.w-80{width:20rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.max-w-none{max-width:none}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-2{--tw-translate-y:0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-0{--tw-scale-x:0;--tw-scale-y:0;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%,100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-r-lg{border-top-right-radius:.5rem;border-bottom-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-\[\#00D4AA\]{--tw-border-opacity:1;border-color:rgb(0 212 170 / var(--tw-border-opacity))}.border-\[\#00D4AA\]\/20{border-color:rgb(0 212 170 / .2)}.border-\[var\(--light-border-color\)\]{border-color:var(--light-border-color)}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99 / var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.border-white\/20{border-color:rgb(255 255 255 / .2)}.bg-\[\#00D4AA\]{--tw-bg-opacity:1;background-color:rgb(0 212 170 / var(--tw-bg-opacity))}.bg-\[\#00D4AA\]\/10{background-color:rgb(0 212 170 / .1)}.bg-\[\#4FC3F7\]{--tw-bg-opacity:1;background-color:rgb(79 195 247 / var(--tw-bg-opacity))}.bg-\[var\(--accent-color\)\]{background-color:var(--accent-color)}.bg-\[var\(--accent2-color\)\]{background-color:var(--accent2-color)}.bg-\[var\(--accent3-color\)\]{background-color:var(--accent3-color)}.bg-\[var\(--dark-background-color\)\]{background-color:var(--dark-background-color)}.bg-\[var\(--primary-color\)\]{background-color:var(--primary-color)}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-white\/10{background-color:rgb(255 255 255 / .1)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-\[\#00D4AA\]{--tw-gradient-from:#00D4AA var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(0 212 170 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[\#00D4AA\]\/10{--tw-gradient-from:rgb(0 212 170 / 0.1) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(0 212 170 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[\#0B1426\]{--tw-gradient-from:#0B1426 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(11 20 38 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-\[\#1E3A5F\]{--tw-gradient-via-position: ;--tw-gradient-to:rgb(30 58 95 / 0) var(--tw-gradient-to-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),#1E3A5F var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-\[\#2D5A87\]{--tw-gradient-to:#2D5A87 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[\#4FC3F7\]{--tw-gradient-to:#4FC3F7 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[\#4FC3F7\]\/10{--tw-gradient-to:rgb(79 195 247 / 0.1) var(--tw-gradient-to-position);--tw-gradient-to-position: }.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-8{padding-bottom:2rem}.pl-4{padding-left:1rem}.pt-16{padding-top:4rem}.pt-6{padding-top:1.5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-\[var\(--font-family-body\)\]{font-weight:var(--font-family-body)}.font-\[var\(--font-family-heading\)\]{font-weight:var(--font-family-heading)}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-\[\#00D4AA\]{--tw-text-opacity:1;color:rgb(0 212 170 / var(--tw-text-opacity))}.text-\[\#0B1426\]{--tw-text-opacity:1;color:rgb(11 20 38 / var(--tw-text-opacity))}.text-\[\#4FC3F7\]{--tw-text-opacity:1;color:rgb(79 195 247 / var(--tw-text-opacity))}.text-\[var\(--accent-color\)\]{color:var(--accent-color)}.text-\[var\(--accent2-color\)\]{color:var(--accent2-color)}.text-\[var\(--dark-text-color\)\]{color:var(--dark-text-color)}.text-\[var\(--light-text-color\)\]{color:var(--light-text-color)}.text-\[var\(--primary-button-text-color\)\]{color:var(--primary-button-text-color)}.text-\[var\(--primary-color\)\]{color:var(--primary-color)}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity))}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22 / var(--tw-text-opacity))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247 / var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-white\/90{color:rgb(255 255 255 / .9)}.placeholder-gray-400::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.opacity-0{opacity:0}.opacity-10{opacity:.1}.opacity-100{opacity:1}.opacity-20{opacity:.2}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1),0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.delay-1000{transition-delay:1s}.delay-500{transition-delay:0.5s}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(0.4,0,0.2,1)}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[var\(--light-background-color\)\]:hover{background-color:var(--light-background-color)}.hover\:bg-\[var\(--primary-button-hover-bg-color\)\]:hover{background-color:var(--primary-button-hover-bg-color)}.hover\:text-\[var\(--accent2-color\)\]:hover{color:var(--accent2-color)}.hover\:text-\[var\(--primary-color\)\]:hover{color:var(--primary-color)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.focus\:border-\[var\(--primary-color\)\]:focus{border-color:var(--primary-color)}.focus\:text-\[var\(--primary-color\)\]:focus{color:var(--primary-color)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-\[var\(--primary-color\)\]:focus{--tw-ring-color:var(--primary-color)}.group:hover .group-hover\:visible{visibility:visible}.group:hover .group-hover\:translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width:640px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width:768px){.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:flex-row{flex-direction:row}}@media (min-width:1024px){.lg\:col-span-2{grid-column:span 2/span 2}.lg\:flex{display:flex}.lg\:hidden{display:none}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:p-12{padding:3rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}.opacity-0{opacity:0}.opacity-5{opacity:.05}.opacity-10{opacity:.1}.opacity-15{opacity:.15}.opacity-20{opacity:.2}.opacity-25{opacity:.25}.opacity-30{opacity:.3}.opacity-35{opacity:.35}.opacity-40{opacity:.4}.opacity-45{opacity:.45}.opacity-50{opacity:.5}.opacity-55{opacity:.55}.opacity-60{opacity:.6}.opacity-65{opacity:.65}.opacity-70{opacity:.7}.opacity-75{opacity:.75}.opacity-80{opacity:.8}.opacity-85{opacity:.85}.opacity-90{opacity:.9}.opacity-95{opacity:.95}.opacity-100{opacity:1}</style>
+    <link rel="icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
+<link rel="apple-touch-icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
+    <style>:root { --accent-color: #FFA84A; --accent2-color: #33D9B2; --accent3-color: #FF5776; --accent4-color: #45BCFF; --primary-color: #5851DB; --dark-text-color: #222222; --gray-text-color: #6F6F6F; --button-padding-x: 16px; --button-padding-y: 10px; --font-family-body: Nunito; --light-text-color: #FFFFFF; --dark-border-color: #3C3C4D; --light-border-color: #DFDFDF; --font-family-heading: Poppins; --button-rounded-radius: 6px; --dark-background-color: #1E1E2E; --light-background-color: #F5F5FF; --medium-background-color: #E6E6FB; --primary-button-text-color: #FFFFFF; --secondary-button-bg-color: #E858DB; --secondary-button-text-color: #FFFFFF; --primary-button-hover-bg-color: #3E3BB3; --primary-button-hover-text-color: #FFFFFF; --secondary-button-hover-bg-color: #C241B3; --secondary-button-hover-text-color: #FFFFFF; }</style>
+    <title>Privacy Policy - Learn How Kolabix Protects Your Data</title>
+  <meta name="description" content="Discover Kolabix's comprehensive privacy policy. We respect your privacy by safeguarding your data and ensuring no third-party data sharing."/>
+  <meta property="og:title" content="Privacy Policy - Learn How Kolabix Protects Your Data" /><meta property="og:description" content="Discover Kolabix's comprehensive privacy policy. We respect your privacy by safeguarding your data and ensuring no third-party data sharing." />
+<meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Privacy Policy - Learn How Kolabix Protects Your Data" /><meta name="twitter:description" content="Discover Kolabix's comprehensive privacy policy. We respect your privacy by safeguarding your data and ensuring no third-party data sharing." />
+    
+  </head>
+  <body style="font-family:var(--font-family-body);"><header id="global-header" class="code-section bg-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="/" class="flex items-center">
+          <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e50dc634-6fa2-42dd-dba9-0461818fb100/publicContain" alt="Kolabix Logo" class="h-12" data-media="{&quot;id&quot;:&quot;upload-apple-touch-icon.png&quot;,&quot;src&quot;:&quot;upload&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">About Us</a>
+
+        <!-- Services Dropdown -->
+        <div class="relative group">
+          <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300 flex items-center">
+            Services &amp; Pricing
+            <i class="fas fa-chevron-down ml-2 text-sm group-hover:rotate-180 transition-transform duration-300" aria-hidden="true"></i>
+          </button>
+          <!-- Dropdown Menu -->
+          <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-[var(--light-border-color)] py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
+            <a href="/pricing" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>
+              Services &amp; Pricing Overview
+            </a>
+            <a href="/digidinez" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>
+              DigiDinez - Restaurant Menus
+            </a>
+            <a href="/ai-agent-development" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
+              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>
+              AI Agents Development
+            </a>
+          </div>
+        </div>
+
+        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">Industries Served</a>
+        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">Request a Quote</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <div class="lg:hidden">
+        <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] focus:outline-none focus:text-[var(--primary-color)] transition-colors duration-300" data-landingsite-mobile-menu-toggle="">
+          <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="lg:hidden hidden bg-white border-t border-[var(--light-border-color)] py-4" data-landingsite-mobile-menu="">
+      <div class="flex flex-col space-y-4">
+        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">About Us</a>
+
+        <!-- Mobile Services Section -->
+        <div class="px-4">
+          <div class="font-semibold text-[var(--dark-text-color)] py-2 border-b border-[var(--light-border-color)] mb-2">
+            Services &amp; Pricing
+          </div>
+          <div class="space-y-2 pl-4">
+            <a href="/pricing" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>Overview
+            </a>
+            <a href="/digidinez" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>DigiDinez
+            </a>
+            <a href="/ai-agent-development" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
+              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>AI
+              Agents
+            </a>
+          </div>
+        </div>
+
+        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">Industries Served</a>
+        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-4 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 mx-4">Request a Quote</a>
+      </div>
+    </div>
+  </div>
+</header><section id="s8idqih" class="code-section relative py-20 bg-gradient-to-br from-[#0B1426] via-[#1E3A5F] to-[#2D5A87] overflow-hidden">
+  <!-- Background Elements -->
+  <div class="absolute inset-0 overflow-hidden">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-white rounded-full opacity-10 animate-pulse"></div>
+    <div class="absolute -bottom-20 -left-20 w-60 h-60 bg-[#00D4AA] rounded-full opacity-10 animate-pulse delay-1000"></div>
+    <div class="absolute top-1/2 right-1/4 w-20 h-20 bg-[#4FC3F7] rounded-full opacity-20 animate-bounce delay-500"></div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center">
+      <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-6 py-3 border border-white/20 mb-8">
+        <i class="fas fa-shield-alt text-[#00D4AA]" aria-hidden="true"></i>
+        <span class="text-sm font-semibold text-white">Your Privacy Matters</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white font-[var(--font-family-heading)] leading-tight mb-6">
+        Privacy
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7]">Policy</span>
+      </h1>
+
+      <p class="text-lg sm:text-xl text-gray-300 font-[var(--font-family-body)] max-w-3xl mx-auto mb-8">
+        At Kolabix, we are committed to protecting your privacy and maintaining
+        the highest standards of data security. We do not share your personal
+        information with third parties.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-6 text-white/90">
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
+          <i class="fas fa-lock text-[#00D4AA]" aria-hidden="true"></i>
+          <span class="text-sm font-medium">Enterprise Security</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
+          <i class="fas fa-user-shield text-[#4FC3F7]" aria-hidden="true"></i>
+          <span class="text-sm font-medium">No Third-Party Sharing</span>
+        </div>
+        <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
+          <i class="fas fa-globe text-[#00D4AA]" aria-hidden="true"></i>
+          <span class="text-sm font-medium">GDPR Compliant</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom wave -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-20">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity="0.25" fill="url(#wave1)"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity="0.5" fill="url(#wave2)"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="white"></path>
+      <defs>
+        <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#00D4AA"></stop>
+          <stop offset="100%" stop-color="#4FC3F7"></stop>
+        </linearGradient>
+        <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#0B1426"></stop>
+          <stop offset="100%" stop-color="#2D5A87"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+</section>
+<section id="s9v4od7b" class="code-section py-20 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Last Updated -->
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 border border-gray-200 shadow-sm">
+        <i class="fas fa-calendar text-[#00D4AA]" aria-hidden="true"></i>
+        <span class="text-sm font-medium text-gray-600">Last updated: January 1, 2026</span>
+      </div>
+    </div>
+
+    <!-- Privacy Policy Content -->
+    <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+      <div class="p-8 lg:p-12">
+        <!-- Introduction -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-4 font-[var(--font-family-heading)]">
+            Introduction
+          </h2>
+          <div class="prose prose-lg max-w-none">
+            <p class="text-gray-700 leading-relaxed font-[var(--font-family-body)]">
+              At Kolabix ("we," "our," or "us"), we respect your privacy and are
+              committed to protecting your personal information. This Privacy
+              Policy explains how we collect, use, disclose, and safeguard your
+              information when you visit our website, use our services, or
+              engage with us.
+            </p>
+            <div class="bg-[#00D4AA]/10 border-l-4 border-[#00D4AA] p-4 my-6 rounded-r-lg">
+              <p class="text-[#0B1426] font-semibold mb-2">
+                Our Privacy Commitment:
+              </p>
+              <p class="text-gray-700 mb-0">
+                <strong>We do not share, sell, or distribute your personal
+                  information with any third parties</strong>
+                for marketing, advertising, or any other commercial purposes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Information We Collect -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Information We Collect
+          </h2>
+
+          <div class="space-y-6">
+            <div class="bg-gray-50 rounded-lg p-6">
+              <h3 class="text-xl font-semibold text-[#0B1426] mb-3 flex items-center">
+                <i class="fas fa-user text-[#00D4AA] mr-3" aria-hidden="true"></i>
+                Personal Information
+              </h3>
+              <p class="text-gray-700 font-[var(--font-family-body)] leading-relaxed">
+                When you contact us, request services, or engage with our
+                website, we may collect:
+              </p>
+              <ul class="mt-3 space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Name and contact information (email, phone number)
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Company name and business information
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Project requirements and communication content
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Billing and payment information (processed securely)
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6">
+              <h3 class="text-xl font-semibold text-[#0B1426] mb-3 flex items-center">
+                <i class="fas fa-chart-line text-[#4FC3F7] mr-3" aria-hidden="true"></i>
+                Usage Information
+              </h3>
+              <p class="text-gray-700 font-[var(--font-family-body)] leading-relaxed">
+                We automatically collect certain information when you visit our
+                website:
+              </p>
+              <ul class="mt-3 space-y-2 text-gray-700">
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#4FC3F7] mr-2 mt-1" aria-hidden="true"></i>IP address and browser information
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#4FC3F7] mr-2 mt-1" aria-hidden="true"></i>Pages visited and time spent on our website
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#4FC3F7] mr-2 mt-1" aria-hidden="true"></i>Referring website and search terms used
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-check text-[#4FC3F7] mr-2 mt-1" aria-hidden="true"></i>Device type and operating system
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- How We Use Information -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            How We Use Your Information
+          </h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+              <h3 class="text-lg font-semibold text-[#0B1426] mb-3 flex items-center">
+                <i class="fas fa-cog text-[#00D4AA] mr-3" aria-hidden="true"></i>
+                Service Delivery
+              </h3>
+              <ul class="space-y-2 text-gray-700 text-sm">
+                <li>• Provide and deliver our services</li>
+                <li>• Communicate about projects</li>
+                <li>• Process payments</li>
+                <li>• Provide customer support</li>
+              </ul>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+              <h3 class="text-lg font-semibold text-[#0B1426] mb-3 flex items-center">
+                <i class="fas fa-chart-bar text-[#4FC3F7] mr-3" aria-hidden="true"></i>
+                Website Improvement
+              </h3>
+              <ul class="space-y-2 text-gray-700 text-sm">
+                <li>• Analyze website usage patterns</li>
+                <li>• Improve user experience</li>
+                <li>• Enhance security measures</li>
+                <li>• Optimize website performance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Information Sharing -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Information Sharing and Disclosure
+          </h2>
+
+          <div class="bg-gradient-to-r from-[#00D4AA]/10 to-[#4FC3F7]/10 border-2 border-[#00D4AA]/20 rounded-xl p-8 mb-6">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-shield-alt text-[#00D4AA] text-2xl mr-4" aria-hidden="true"></i>
+              <h3 class="text-xl font-bold text-[#0B1426]">
+                No Third-Party Data Sharing
+              </h3>
+            </div>
+            <p class="text-gray-800 font-semibold font-[var(--font-family-body)] leading-relaxed">
+              We do not sell, trade, rent, or otherwise share your personal
+              information with third parties for their marketing or commercial
+              purposes. Your data stays with us and is used solely for providing
+              our services to you.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-lg font-semibold text-[#0B1426] mb-3">
+              Limited Exceptions:
+            </h3>
+            <div class="grid gap-4">
+              <div class="flex items-start p-4 border border-gray-200 rounded-lg">
+                <i class="fas fa-gavel text-orange-500 mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">
+                    Legal Requirements
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    When required by law, court order, or government regulation
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start p-4 border border-gray-200 rounded-lg">
+                <i class="fas fa-tools text-blue-500 mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">
+                    Service Providers
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    Essential service providers (hosting, payment processing)
+                    under strict confidentiality agreements
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start p-4 border border-gray-200 rounded-lg">
+                <i class="fas fa-building text-purple-500 mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">
+                    Business Transfers
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    In the event of a merger, acquisition, or sale of business
+                    assets
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Security -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Data Security
+          </h2>
+          <div class="bg-gray-50 rounded-lg p-6">
+            <p class="text-gray-700 font-[var(--font-family-body)] leading-relaxed mb-4">
+              We implement industry-standard security measures to protect your
+              personal information:
+            </p>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="flex items-center">
+                <i class="fas fa-lock text-[#00D4AA] mr-3" aria-hidden="true"></i>
+                <span class="text-gray-700">SSL/TLS encryption</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-server text-[#4FC3F7] mr-3" aria-hidden="true"></i>
+                <span class="text-gray-700">Secure server infrastructure</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-key text-[#00D4AA] mr-3" aria-hidden="true"></i>
+                <span class="text-gray-700">Access controls and authentication</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-shield-virus text-[#4FC3F7] mr-3" aria-hidden="true"></i>
+                <span class="text-gray-700">Regular security audits</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Your Rights -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Your Privacy Rights
+          </h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="space-y-4">
+              <div class="flex items-start">
+                <i class="fas fa-eye text-[#00D4AA] mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Access</h4>
+                  <p class="text-gray-600 text-sm">
+                    Request access to your personal information
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-edit text-[#4FC3F7] mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Correction</h4>
+                  <p class="text-gray-600 text-sm">
+                    Update or correct inaccurate information
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-trash text-red-500 mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Deletion</h4>
+                  <p class="text-gray-600 text-sm">
+                    Request deletion of your personal information
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="flex items-start">
+                <i class="fas fa-download text-[#00D4AA] mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Portability</h4>
+                  <p class="text-gray-600 text-sm">
+                    Receive your data in a portable format
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-ban text-[#4FC3F7] mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Restriction</h4>
+                  <p class="text-gray-600 text-sm">
+                    Limit how we process your information
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-times-circle text-red-500 mr-3 mt-1" aria-hidden="true"></i>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-1">Objection</h4>
+                  <p class="text-gray-600 text-sm">
+                    Object to certain processing activities
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cookies -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Cookies and Tracking
+          </h2>
+          <div class="bg-gray-50 rounded-lg p-6">
+            <p class="text-gray-700 font-[var(--font-family-body)] leading-relaxed mb-4">
+              We use cookies and similar technologies to enhance your browsing
+              experience. These help us:
+            </p>
+            <ul class="space-y-2 text-gray-700">
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Remember your preferences and settings
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Analyze website traffic and usage patterns
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Improve website functionality and performance
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-[#00D4AA] mr-2 mt-1" aria-hidden="true"></i>Provide personalized content and services
+              </li>
+            </ul>
+            <p class="text-gray-600 text-sm mt-4">
+              You can control cookie settings through your browser preferences.
+              Note that disabling cookies may affect website functionality.
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="mb-8">
+          <h2 class="text-2xl font-bold text-[#0B1426] mb-6 font-[var(--font-family-heading)]">
+            Contact Us
+          </h2>
+          <div class="bg-gradient-to-r from-[#0B1426] to-[#2D5A87] rounded-xl p-8 text-white">
+            <p class="font-[var(--font-family-body)] leading-relaxed mb-6">
+              If you have any questions about this Privacy Policy or wish to
+              exercise your privacy rights, please contact us:
+            </p>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-[#00D4AA] mr-3 text-xl" aria-hidden="true"></i>
+                <div>
+                  <p class="font-semibold mb-1">Email</p>
+                  <a href="mailto:ops@kolabix.com" class="text-[#00D4AA] hover:text-white transition-colors">ops@kolabix.com</a>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-phone text-[#4FC3F7] mr-3 text-xl" aria-hidden="true"></i>
+                <div>
+                  <p class="font-semibold mb-1">Phone</p>
+                  <a href="tel:+18149292960" class="text-[#4FC3F7] hover:text-white transition-colors">+1 (814) 929-2960</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Changes to Policy -->
+        <div class="border-t border-gray-200 pt-8">
+          <h2 class="text-xl font-bold text-[#0B1426] mb-4 font-[var(--font-family-heading)]">
+            Changes to This Privacy Policy
+          </h2>
+          <p class="text-gray-700 font-[var(--font-family-body)] leading-relaxed">
+            We may update this Privacy Policy from time to time. We will notify
+            you of any material changes by posting the new Privacy Policy on
+            this page and updating the "Last updated" date. We encourage you to
+            review this Privacy Policy periodically for any changes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="global-footer" class="code-section bg-[var(--dark-background-color)] text-[var(--light-text-color)] pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Main Footer Content -->
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
+      <!-- Company Info -->
+      <div class="lg:col-span-2">
+        <div class="mb-6">
+          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-4 text-white">
+            Kolabix
+          </h3>
+          <p class="text-gray-300 font-[var(--font-family-body)] text-lg leading-relaxed max-w-md">
+            Your trusted partner for custom IT solutions. We deliver
+            cutting-edge technology that drives business growth and digital
+            transformation.
+          </p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--primary-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-envelope text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Email</div>
+              <a href="mailto:ops@kolabix.com" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">ops@kolabix.com</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent2-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-phone text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Phone</div>
+              <a href="tel:+18149292960" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+1 (814) 929-2960</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent-color)] rounded-lg flex items-center justify-center">
+              <i class="fab fa-whatsapp text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">WhatsApp</div>
+              <a href="https://wa.me/918004978020" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+91 80049 78020</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-[var(--accent3-color)] rounded-lg flex items-center justify-center">
+              <i class="fas fa-map-marker-alt text-white" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-sm text-gray-400">Location</div>
+              <span class="text-white">Global Remote Services</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
+          Quick Links
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="/" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Home</a>
+          </li>
+          <li>
+            <a href="/about" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">About Us</a>
+          </li>
+          <li>
+            <a href="/pricing" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Services &amp; Pricing</a>
+          </li>
+          <li>
+            <a href="/digidinez" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">DigiDinez</a>
+          </li>
+          <li>
+            <a href="/ai-agent-development" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Agents</a>
+          </li>
+          <li>
+            <a href="/ai-chatbot-solutions" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot for SMBs</a>
+          </li>
+          <li>
+            <a href="/ai-chatbot-business" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot Business</a>
+          </li>
+          <li>
+            <a href="/industries" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Industries</a>
+          </li>
+          <li>
+            <a href="/contact" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Contact</a>
+          </li>
+          <li>
+            <a href="/privacy-policy" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
+          Our Services
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">AI Agent Development</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Custom Software Development</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Cloud Solutions</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Data Analytics &amp; AI</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">Cybersecurity</span>
+          </li>
+          <li>
+            <span class="text-gray-300 font-[var(--font-family-body)]">24/7 Support</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="border-t border-gray-700 pt-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-2 text-white">
+            Stay Updated
+          </h3>
+          <p class="text-gray-300 font-[var(--font-family-body)]">
+            Get the latest news about technology trends and our services.
+          </p>
+        </div>
+        <div>
+          <form class="flex gap-2" data-landingsite-contact-form="">
+            <input type="email" name="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-[var(--primary-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors duration-300">
+            <button type="submit" class="bg-[var(--primary-color)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-gray-700 pt-6">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400 text-sm font-[var(--font-family-body)]">
+          © 2026 Kolabix Innovations LLP. Registered address: A16/102 HARSH
+          UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Mira Road, KANAKIA POLICE
+          STATION, Thane, Thane-401107, Maharashtra, India
+        </p>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-shield-alt text-[var(--accent2-color)]" aria-hidden="true"></i>
+            <span>Enterprise Security</span>
+          </div>
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-clock text-[var(--accent-color)]" aria-hidden="true"></i>
+            <span>24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script></body>
+</html>
