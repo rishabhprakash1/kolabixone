@@ -1,1312 +1,407 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script>window.LANDING_SITE_ID = 'LS-54ioliz5jv'</script>
-    <script>window.LANDING_SITE_CONTACT_US_URL = 'https://oaojaap5re2buacyhw4cycgvza0shopu.lambda-url.us-east-2.on.aws/'</script>
-    <script src="/public/main.umd.js" defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
-        as="style"
-        onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-    </noscript>
-    <style>*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*,::after,::before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.invisible{visibility:hidden}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-20{bottom:-5rem}.-bottom-4{bottom:-1rem}.-bottom-6{bottom:-1.5rem}.-left-20{left:-5rem}.-left-4{left:-1rem}.-left-6{left:-1.5rem}.-right-4{right:-1rem}.-right-40{right:-10rem}.-right-6{right:-1.5rem}.-top-4{top:-1rem}.-top-40{top:-10rem}.-top-6{top:-1.5rem}.bottom-0{bottom:0}.bottom-1\/4{bottom:25%}.bottom-20{bottom:5rem}.bottom-8{bottom:2rem}.left-0{left:0}.left-1\/4{left:25%}.left-10{left:2.5rem}.left-20{left:5rem}.left-8{left:2rem}.right-0{right:0}.right-1\/4{right:25%}.right-20{right:5rem}.right-8{right:2rem}.top-0{top:0}.top-1\/2{top:50%}.top-1\/4{top:25%}.top-20{top:5rem}.top-3\/4{top:75%}.top-8{top:2rem}.top-full{top:100%}.z-10{z-index:10}.z-50{z-index:50}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:.5rem}.mr-3{margin-right:.75rem}.mt-16{margin-top:4rem}.mt-2{margin-top:.5rem}.mt-20{margin-top:5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-20{height:5rem}.h-24{height:6rem}.h-3{height:.75rem}.h-32{height:8rem}.h-40{height:10rem}.h-6{height:1.5rem}.h-60{height:15rem}.h-8{height:2rem}.h-80{height:20rem}.h-auto{height:auto}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-20{width:5rem}.w-24{width:6rem}.w-3{width:.75rem}.w-32{width:8rem}.w-40{width:10rem}.w-6{width:1.5rem}.w-60{width:15rem}.w-64{width:16rem}.w-8{width:2rem}.w-80{width:20rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-2{--tw-translate-y:0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-1{--tw-rotate:-1deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-3{--tw-rotate:3deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-0{--tw-scale-x:0;--tw-scale-y:0;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%,100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-16{gap:4rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem * var(--tw-space-x-reverse));margin-left:calc(.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem * var(--tw-space-x-reverse));margin-left:calc(.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-\[\#00D4AA\]{--tw-border-opacity:1;border-color:rgb(0 212 170 / var(--tw-border-opacity))}.border-\[\#4FC3F7\]{--tw-border-opacity:1;border-color:rgb(79 195 247 / var(--tw-border-opacity))}.border-\[var\(--light-border-color\)\]{border-color:var(--light-border-color)}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99 / var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity))}.border-white\/20{border-color:rgb(255 255 255 / .2)}.border-opacity-20{--tw-border-opacity:0.2}.border-opacity-30{--tw-border-opacity:0.3}.border-opacity-40{--tw-border-opacity:0.4}.border-opacity-50{--tw-border-opacity:0.5}.bg-\[\#00D4AA\]{--tw-bg-opacity:1;background-color:rgb(0 212 170 / var(--tw-bg-opacity))}.bg-\[\#0B1426\]{--tw-bg-opacity:1;background-color:rgb(11 20 38 / var(--tw-bg-opacity))}.bg-\[\#4FC3F7\]{--tw-bg-opacity:1;background-color:rgb(79 195 247 / var(--tw-bg-opacity))}.bg-\[var\(--accent-color\)\]{background-color:var(--accent-color)}.bg-\[var\(--accent2-color\)\]{background-color:var(--accent2-color)}.bg-\[var\(--accent3-color\)\]{background-color:var(--accent3-color)}.bg-\[var\(--accent4-color\)\]{background-color:var(--accent4-color)}.bg-\[var\(--dark-background-color\)\]{background-color:var(--dark-background-color)}.bg-\[var\(--primary-color\)\]{background-color:var(--primary-color)}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-white\/10{background-color:rgb(255 255 255 / .1)}.bg-opacity-10{--tw-bg-opacity:0.1}.bg-opacity-20{--tw-bg-opacity:0.2}.bg-opacity-95{--tw-bg-opacity:0.95}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-\[\#00D4AA\]{--tw-gradient-from:#00D4AA var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(0 212 170 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[\#0B1426\]{--tw-gradient-from:#0B1426 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(11 20 38 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[\#2D5A87\]{--tw-gradient-from:#2D5A87 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(45 90 135 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[\#4FC3F7\]{--tw-gradient-from:#4FC3F7 var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(79 195 247 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[var\(--accent-color\)\]{--tw-gradient-from:var(--accent-color) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[var\(--accent2-color\)\]{--tw-gradient-from:var(--accent2-color) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[var\(--accent3-color\)\]{--tw-gradient-from:var(--accent3-color) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[var\(--light-background-color\)\]{--tw-gradient-from:var(--light-background-color) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-\[var\(--primary-color\)\]{--tw-gradient-from:var(--primary-color) var(--tw-gradient-from-position);--tw-gradient-from-position: ;--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-from-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-\[\#1E3A5F\]{--tw-gradient-via-position: ;--tw-gradient-to:rgb(30 58 95 / 0) var(--tw-gradient-to-position);--tw-gradient-to-position: ;--tw-gradient-stops:var(--tw-gradient-from),#1E3A5F var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-\[\#00D4AA\]{--tw-gradient-to:#00D4AA var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[\#0B1426\]{--tw-gradient-to:#0B1426 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[\#2D5A87\]{--tw-gradient-to:#2D5A87 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[\#4FC3F7\]{--tw-gradient-to:#4FC3F7 var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--accent-color\)\]{--tw-gradient-to:var(--accent-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--accent3-color\)\]{--tw-gradient-to:var(--accent3-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--accent4-color\)\]{--tw-gradient-to:var(--accent4-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--medium-background-color\)\]{--tw-gradient-to:var(--medium-background-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--primary-color\)\]{--tw-gradient-to:var(--primary-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.to-\[var\(--secondary-button-bg-color\)\]{--tw-gradient-to:var(--secondary-button-bg-color) var(--tw-gradient-to-position);--tw-gradient-to-position: }.bg-cover{background-size:cover}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.bg-center{background-position:center}.bg-no-repeat{background-repeat:no-repeat}.p-3{padding:.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-8{padding-bottom:2rem}.pl-4{padding-left:1rem}.pt-12{padding-top:3rem}.pt-16{padding-top:4rem}.pt-6{padding-top:1.5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-\[var\(--font-family-body\)\]{font-weight:var(--font-family-body)}.font-\[var\(--font-family-heading\)\]{font-weight:var(--font-family-heading)}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.not-italic{font-style:normal}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-\[\#00D4AA\]{--tw-text-opacity:1;color:rgb(0 212 170 / var(--tw-text-opacity))}.text-\[\#0B1426\]{--tw-text-opacity:1;color:rgb(11 20 38 / var(--tw-text-opacity))}.text-\[\#4FC3F7\]{--tw-text-opacity:1;color:rgb(79 195 247 / var(--tw-text-opacity))}.text-\[var\(--accent-color\)\]{color:var(--accent-color)}.text-\[var\(--accent2-color\)\]{color:var(--accent2-color)}.text-\[var\(--accent3-color\)\]{color:var(--accent3-color)}.text-\[var\(--accent4-color\)\]{color:var(--accent4-color)}.text-\[var\(--dark-text-color\)\]{color:var(--dark-text-color)}.text-\[var\(--gray-text-color\)\]{color:var(--gray-text-color)}.text-\[var\(--light-text-color\)\]{color:var(--light-text-color)}.text-\[var\(--primary-button-text-color\)\]{color:var(--primary-button-text-color)}.text-\[var\(--primary-color\)\]{color:var(--primary-color)}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.placeholder-gray-400::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.opacity-0{opacity:0}.opacity-10{opacity:.1}.opacity-100{opacity:1}.opacity-20{opacity:.2}.opacity-60{opacity:.6}.opacity-70{opacity:.7}.opacity-80{opacity:.8}.opacity-90{opacity:.9}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1),0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.blur-2xl{--tw-blur:blur(40px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-duration:150ms}.delay-1000{transition-delay:1s}.delay-300{transition-delay:0.3s}.delay-500{transition-delay:0.5s}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.duration-500{transition-duration:.5s}.ease-in-out{transition-timing-function:cubic-bezier(0.4,0,0.2,1)}.hover\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:rotate-0:hover{--tw-rotate:0deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[\#1E3A5F\]:hover{--tw-bg-opacity:1;background-color:rgb(30 58 95 / var(--tw-bg-opacity))}.hover\:bg-\[\#4FC3F7\]:hover{--tw-bg-opacity:1;background-color:rgb(79 195 247 / var(--tw-bg-opacity))}.hover\:bg-\[var\(--light-background-color\)\]:hover{background-color:var(--light-background-color)}.hover\:bg-\[var\(--primary-button-hover-bg-color\)\]:hover{background-color:var(--primary-button-hover-bg-color)}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.hover\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.hover\:text-\[\#00D4AA\]:hover{--tw-text-opacity:1;color:rgb(0 212 170 / var(--tw-text-opacity))}.hover\:text-\[\#4FC3F7\]:hover{--tw-text-opacity:1;color:rgb(79 195 247 / var(--tw-text-opacity))}.hover\:text-\[var\(--accent2-color\)\]:hover{color:var(--accent2-color)}.hover\:text-\[var\(--primary-color\)\]:hover{color:var(--primary-color)}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1),0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.focus\:border-\[var\(--primary-color\)\]:focus{border-color:var(--primary-color)}.focus\:text-\[var\(--primary-color\)\]:focus{color:var(--primary-color)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-\[var\(--primary-color\)\]:focus{--tw-ring-color:var(--primary-color)}.group:hover .group-hover\:visible{visibility:visible}.group:hover .group-hover\:translate-x-1{--tw-translate-x:0.25rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.group:hover .group-hover\:animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width:640px){.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width:768px){.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\:flex-row{flex-direction:row}}@media (min-width:1024px){.lg\:col-span-2{grid-column:span 2/span 2}.lg\:flex{display:flex}.lg\:hidden{display:none}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:p-12{padding:3rem}.lg\:px-6{padding-left:1.5rem;padding-right:1.5rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-2xl{font-size:1.5rem;line-height:2rem}.lg\:text-3xl{font-size:1.875rem;line-height:2.25rem}.lg\:text-4xl{font-size:2.25rem;line-height:2.5rem}.lg\:text-5xl{font-size:3rem;line-height:1}.lg\:text-6xl{font-size:3.75rem;line-height:1}}.opacity-0{opacity:0}.opacity-5{opacity:.05}.opacity-10{opacity:.1}.opacity-15{opacity:.15}.opacity-20{opacity:.2}.opacity-25{opacity:.25}.opacity-30{opacity:.3}.opacity-35{opacity:.35}.opacity-40{opacity:.4}.opacity-45{opacity:.45}.opacity-50{opacity:.5}.opacity-55{opacity:.55}.opacity-60{opacity:.6}.opacity-65{opacity:.65}.opacity-70{opacity:.7}.opacity-75{opacity:.75}.opacity-80{opacity:.8}.opacity-85{opacity:.85}.opacity-90{opacity:.9}.opacity-95{opacity:.95}.opacity-100{opacity:1}</style>
-    <link rel="icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
-<link rel="apple-touch-icon" type="image/png" href="https://landingsite-app-public.s3.us-east-2.amazonaws.com/client-files/b892f60c-9270-4124-8049-822a9adebe81.png">
-    <style>:root { --accent-color: #FFA84A; --accent2-color: #33D9B2; --accent3-color: #FF5776; --accent4-color: #45BCFF; --primary-color: #5851DB; --dark-text-color: #222222; --gray-text-color: #6F6F6F; --button-padding-x: 16px; --button-padding-y: 10px; --font-family-body: Nunito; --light-text-color: #FFFFFF; --dark-border-color: #3C3C4D; --light-border-color: #DFDFDF; --font-family-heading: Poppins; --button-rounded-radius: 6px; --dark-background-color: #1E1E2E; --light-background-color: #F5F5FF; --medium-background-color: #E6E6FB; --primary-button-text-color: #FFFFFF; --secondary-button-bg-color: #E858DB; --secondary-button-text-color: #FFFFFF; --primary-button-hover-bg-color: #3E3BB3; --primary-button-hover-text-color: #FFFFFF; --secondary-button-hover-bg-color: #C241B3; --secondary-button-hover-text-color: #FFFFFF; }</style>
-    <title>Kolabix - Expert Custom IT Solutions</title>
-  <meta name="description" content="Kolabix offers tailored IT solutions to meet your business requirements. Visit our website to explore our expertise in transforming ideas into reliable tech solutions."/>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolabix - Expert Custom IT Solutions</title>
   <meta name="description" content="Kolabix offers tailored IT solutions to meet your business requirements. Visit our website to explore our expertise in transforming ideas into reliable tech solutions.">
-<meta property="og:title" content="Kolabix - Expert Custom IT Solutions">
-<meta property="og:description" content="Kolabix offers tailored IT solutions to meet your business requirements. Visit our website to explore our expertise in transforming ideas into reliable tech solutions.">
-<meta name="twitter:title" content="Kolabix - Expert Custom IT Solutions">
-<meta name="twitter:description" content="Kolabix offers tailored IT solutions to meet your business requirements. Visit our website to explore our expertise in transforming ideas into reliable tech solutions.">
-    
-  </head>
-  <body style="font-family:var(--font-family-body);"><header id="global-header" class="code-section bg-white shadow-lg sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-20">
-      <!-- Logo -->
-      <div class="flex-shrink-0">
-        <a href="/" class="flex items-center">
-          <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e50dc634-6fa2-42dd-dba9-0461818fb100/publicContain" alt="Kolabix Logo" class="h-12" data-media="{&quot;id&quot;:&quot;upload-apple-touch-icon.png&quot;,&quot;src&quot;:&quot;upload&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
-        </a>
-      </div>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-      <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center space-x-8">
-        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">About Us</a>
-
-        <!-- Services Dropdown -->
-        <div class="relative group">
-          <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300 flex items-center">
-            Services &amp; Pricing
-            <i class="fas fa-chevron-down ml-2 text-sm group-hover:rotate-180 transition-transform duration-300" aria-hidden="true"></i>
-          </button>
-          <!-- Dropdown Menu -->
-          <div class="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-[var(--light-border-color)] py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
-            <a href="/pricing" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
-              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>
-              Services &amp; Pricing Overview
-            </a>
-            <a href="/digidinez" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
-              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>
-              DigiDinez - Restaurant Menus
-            </a>
-            <a href="/ai-agent-development" class="block px-6 py-3 text-[var(--dark-text-color)] hover:text-[var(--primary-color)] hover:bg-[var(--light-background-color)] transition-all duration-200">
-              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>
-              AI Agents Development
-            </a>
+<!-- HEADER -->
+<header class="site-header" id="site-header">
+  <div class="container">
+    <nav class="nav-inner">
+      <a href="/" class="nav-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></a>
+      <div class="nav-links">
+        <a href="/about" class="nav-link">About Us</a>
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle">Services &amp; Pricing <i class="fas fa-chevron-down"></i></button>
+          <div class="dropdown-menu">
+            <a href="/pricing" class="dropdown-item"><i class="fas fa-list-ul"></i> Services &amp; Pricing Overview</a>
+            <a href="/digidinez" class="dropdown-item"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez – Restaurant Menus</a>
+            <a href="/ai-agent-development" class="dropdown-item"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents Development</a>
           </div>
         </div>
-
-        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium transition-colors duration-300">Industries Served</a>
-        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">Request a Quote</a>
-      </nav>
-
-      <!-- Mobile menu button -->
-      <div class="lg:hidden">
-        <button class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] focus:outline-none focus:text-[var(--primary-color)] transition-colors duration-300" data-landingsite-mobile-menu-toggle="">
-          <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
-        </button>
+        <a href="/industries" class="nav-link">Industries Served</a>
+        <a href="/contact" class="btn btn-primary">Request a Quote</a>
       </div>
-    </div>
-
-    <!-- Mobile Navigation -->
-    <div class="lg:hidden hidden bg-white border-t border-[var(--light-border-color)] py-4" data-landingsite-mobile-menu="">
-      <div class="flex flex-col space-y-4">
-        <a href="/about" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">About Us</a>
-
-        <!-- Mobile Services Section -->
-        <div class="px-4">
-          <div class="font-semibold text-[var(--dark-text-color)] py-2 border-b border-[var(--light-border-color)] mb-2">
-            Services &amp; Pricing
-          </div>
-          <div class="space-y-2 pl-4">
-            <a href="/pricing" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
-              <i class="fas fa-list-ul mr-3 text-[var(--primary-color)]" aria-hidden="true"></i>Overview
-            </a>
-            <a href="/digidinez" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
-              <i class="fas fa-qrcode mr-3 text-[var(--accent-color)]" aria-hidden="true"></i>DigiDinez
-            </a>
-            <a href="/ai-agent-development" class="block text-[var(--dark-text-color)] hover:text-[var(--primary-color)] py-2 transition-colors duration-300">
-              <i class="fas fa-robot mr-3 text-[var(--accent2-color)]" aria-hidden="true"></i>AI
-              Agents
-            </a>
-          </div>
-        </div>
-
-        <a href="/industries" class="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] font-medium px-4 py-2 transition-colors duration-300">Industries Served</a>
-        <a href="/contact" class="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-4 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 mx-4">Request a Quote</a>
-      </div>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </nav>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="/about" class="mobile-nav-link">About Us</a>
+      <div class="mobile-nav-section-title">Services &amp; Pricing</div>
+      <a href="/pricing" class="mobile-nav-sub"><i class="fas fa-list-ul" style="color:var(--primary-color)"></i> Overview</a>
+      <a href="/digidinez" class="mobile-nav-sub"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez</a>
+      <a href="/ai-agent-development" class="mobile-nav-sub"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents</a>
+      <a href="/industries" class="mobile-nav-link">Industries Served</a>
+      <div style="padding:1rem 1.5rem"><a href="/contact" class="btn btn-primary w-full" style="justify-content:center">Request a Quote</a></div>
     </div>
   </div>
-</header><section id="s9cm0o" class="code-section relative min-h-screen flex items-center bg-gradient-to-br from-[#0B1426] via-[#1E3A5F] to-[#2D5A87] overflow-hidden">
-  <!-- Background Elements -->
-  <div class="absolute inset-0 overflow-hidden">
-    <div class="absolute -top-40 -right-40 w-80 h-80 bg-white rounded-full opacity-10 animate-pulse"></div>
-    <div class="absolute -bottom-20 -left-20 w-60 h-60 bg-[#00D4AA] rounded-full opacity-10 animate-pulse delay-1000"></div>
-    <div class="absolute top-1/2 right-1/4 w-20 h-20 bg-[#4FC3F7] rounded-full opacity-20 animate-bounce delay-500"></div>
-  </div>
+</header>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-      <!-- Content -->
-      <div class="space-y-8">
-        <div class="space-y-6">
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white font-[var(--font-family-heading)] leading-tight">
-            Global
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7]">Enterprise</span>
-            Technology Solutions
-          </h1>
-          <p class="text-lg sm:text-xl text-gray-300 font-[var(--font-family-body)] max-w-2xl">
-            Transform your enterprise with world-class technology solutions. We
-            deliver Fortune 500-grade software development, cloud architecture,
-            and digital transformation that drives measurable business results.
-          </p>
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="grid-2" style="align-items:center;">
+      <div class="hero-content">
+        <h1 class="fade-in">Global <span class="gradient-text">Enterprise</span> Technology Solutions</h1>
+        <p class="fade-in fade-in-delay-1">Transform your enterprise with world-class technology solutions. We deliver Fortune 500-grade software development, cloud architecture, and digital transformation that drives measurable business results.</p>
+        <div class="hero-btns fade-in fade-in-delay-2">
+            <a href="/contact" class="btn btn-primary btn-lg">Schedule Enterprise Consultation</a>
         </div>
-
-        <!-- Key Benefits -->
-        <div class="flex flex-wrap gap-4">
-          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
-            <i class="fas fa-shield-alt text-[#00D4AA]" aria-hidden="true"></i>
-            <span class="text-sm font-medium text-white">Enterprise Security</span>
-          </div>
-          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
-            <i class="fas fa-globe text-[#4FC3F7]" aria-hidden="true"></i>
-            <span class="text-sm font-medium text-white">Global Delivery</span>
-          </div>
-          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-lg rounded-full px-4 py-2 border border-white/20">
-            <i class="fas fa-clock text-[#00D4AA]" aria-hidden="true"></i>
-            <span class="text-sm font-medium text-white">24/7 Support</span>
-          </div>
-        </div>
-
-        <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/contact" class="bg-white text-[#0B1426] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center">
-            Schedule Enterprise Consultation
-          </a>
-        </div>
-
-        <!-- Stats -->
-        <div class="grid grid-cols-3 gap-6 pt-8 border-t border-white/20">
-          <div class="text-center">
-            <div class="text-2xl sm:text-3xl font-bold text-[#00D4AA] font-[var(--font-family-heading)]">
-              28+
-            </div>
-            <div class="text-sm text-gray-300">Years Excellence</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl sm:text-3xl font-bold text-[#4FC3F7] font-[var(--font-family-heading)]">
-              Fortune 500
-            </div>
-            <div class="text-sm text-gray-300">Enterprise Clients</div>
-          </div>
-          <div class="text-center">
-            <div class="text-2xl sm:text-3xl font-bold text-[#00D4AA] font-[var(--font-family-heading)]">
-              99%
-            </div>
-            <div class="text-sm text-gray-300">Client Satisfaction</div>
-          </div>
+        <div class="hero-stats fade-in fade-in-delay-3">
+          <div><span class="hero-stat-num" style="color:var(--primary-color)">28+</span><span class="hero-stat-label">Years Excellence</span></div>
+          <div><span class="hero-stat-num" style="color:var(--accent4-color)">Fortune 500</span><span class="hero-stat-label">Enterprise Clients</span></div>
+          <div><span class="hero-stat-num" style="color:var(--accent2-color)">99%</span><span class="hero-stat-label">Client Satisfaction</span></div>
         </div>
       </div>
-
-      <!-- Hero Image -->
-      <div class="relative">
-        <div class="relative z-10 bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20 transform hover:scale-105 transition-transform duration-500">
-          <img src="./images/kolabix_hero_banner.png" alt="Kolabix - Global Enterprise Technology Solutions and Digital Transformation Services" data-media="{&quot;id&quot;:&quot;irlni2l&quot;,&quot;src&quot;:&quot;upload&quot;,&quot;type&quot;:&quot;image&quot;}" class="w-full h-auto rounded-xl" oncontextmenu="return false;">
-        </div>
-        <!-- Floating elements -->
-        <div class="absolute -top-4 -right-4 bg-[#00D4AA] text-white p-3 rounded-full shadow-lg">
-          <i class="fas fa-code text-xl" aria-hidden="true"></i>
-        </div>
-        <div class="absolute -bottom-4 -left-4 bg-[#4FC3F7] text-white p-3 rounded-full shadow-lg">
-          <i class="fas fa-cloud text-xl" aria-hidden="true"></i>
-        </div>
+      <div class="fade-in fade-in-delay-2" style="position:relative; z-index:2;">
+        <img src="images/kolabix_hero_banner.png" alt="Kolabix Global Enterprise Technology Solutions" style="border-radius:var(--radius-lg); box-shadow:var(--shadow-xl); border:1px solid rgba(255,255,255,0.1);">
       </div>
-    </div>
-  </div>
-
-  <!-- Bottom wave -->
-  <div class="absolute bottom-0 left-0 right-0">
-    <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-20">
-      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity="0.25" fill="url(#wave1)"></path>
-      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity="0.5" fill="url(#wave2)"></path>
-      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="white"></path>
-      <defs>
-        <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#00D4AA"></stop>
-          <stop offset="100%" stop-color="#4FC3F7"></stop>
-        </linearGradient>
-        <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#0B1426"></stop>
-          <stop offset="100%" stop-color="#2D5A87"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
-  </div>
-</section>
-<section id="sw2n47" class="code-section py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Section Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-6">
-        Enterprise
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7]">Solutions</span>
-      </h2>
-      <p class="text-lg text-gray-600 max-w-3xl mx-auto font-[var(--font-family-body)]">
-        We provide Fortune 500-grade technology solutions that drive digital
-        transformation and measurable business results across global
-        enterprises.
-      </p>
-    </div>
-
-    <!-- Services Grid -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-      <!-- Custom Software Development -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#0B1426] to-[#2D5A87] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-code text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Enterprise Software Development
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Mission-critical software solutions built to Fortune 500 standards
-            with enterprise-grade security and scalability.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Enterprise Web &amp; Mobile Apps
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            API Development &amp; Integration
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Legacy System Modernization
-          </li>
-        </ul>
-      </div>
-
-      <!-- Cloud Solutions -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-cloud text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Cloud Architecture
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Enterprise-grade cloud infrastructure and migration services
-            optimized for global scale and performance.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Multi-Cloud Architecture
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            AWS, Azure, Google Cloud
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            DevOps &amp; CI/CD Pipelines
-          </li>
-        </ul>
-      </div>
-
-      <!-- Data Analytics & AI -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#4FC3F7] to-[#2D5A87] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-brain text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            AI &amp; Data Analytics
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Transform enterprise data into strategic insights with advanced AI
-            and machine learning solutions.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Enterprise BI Dashboards
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Machine Learning Models
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Predictive Analytics
-          </li>
-        </ul>
-      </div>
-
-      <!-- Cybersecurity -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#2D5A87] to-[#0B1426] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-shield-alt text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Enterprise Security
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Comprehensive cybersecurity solutions designed to protect Fortune
-            500 enterprises from evolving threats.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Security Architecture Review
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Zero-Trust Implementation
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Compliance &amp; Risk Management
-          </li>
-        </ul>
-      </div>
-
-      <!-- IT Consulting -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#00D4AA] to-[#2D5A87] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-lightbulb text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Strategic Consulting
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            C-level technology consulting to align enterprise IT strategy with
-            business objectives and market opportunities.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Digital Transformation Strategy
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Technology Roadmapping
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Enterprise Architecture
-          </li>
-        </ul>
-      </div>
-
-      <!-- Support & Maintenance -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#4FC3F7] to-[#00D4AA] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-tools text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Managed Services
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            24/7 enterprise-grade support and proactive maintenance with
-            guaranteed SLAs and global coverage.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            24/7 Global Support
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Proactive Monitoring
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            SLA-Guaranteed Performance
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- CTA Section -->
-    <div class="text-center bg-gradient-to-r from-[#0B1426] via-[#1E3A5F] to-[#2D5A87] rounded-2xl p-8 lg:p-12">
-      <h3 class="text-2xl lg:text-3xl font-bold text-white font-[var(--font-family-heading)] mb-4">
-        Ready to Transform Your Enterprise?
-      </h3>
-      <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto font-[var(--font-family-body)]">
-        Join the world's leading companies who trust Kolabix for their
-        mission-critical technology initiatives. Schedule a strategic
-        consultation today.
-      </p>
-      <a href="/contact" class="inline-flex items-center gap-2 bg-white text-[#0B1426] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
-        <i class="fas fa-rocket" aria-hidden="true"></i>
-        Schedule Enterprise Consultation
-      </a>
     </div>
   </div>
 </section>
-<section id="sg6ai5s" class="code-section py-20 bg-gradient-to-br from-[var(--light-background-color)] to-[var(--medium-background-color)] relative overflow-hidden">
-  <!-- Background Elements -->
-  <div class="absolute inset-0 opacity-10">
-    <div class="absolute top-20 right-20 w-40 h-40 bg-[var(--primary-color)] rounded-full blur-3xl"></div>
-    <div class="absolute bottom-20 left-20 w-32 h-32 bg-[var(--accent2-color)] rounded-full blur-2xl"></div>
-  </div>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="grid lg:grid-cols-2 gap-16 items-center">
-      <!-- Content Side -->
-      <div class="space-y-8">
-        <div class="space-y-6">
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)]">
-            Why Choose
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-button-bg-color)]">Kolabix</span>?
-          </h2>
-          <p class="text-lg text-[var(--gray-text-color)] font-[var(--font-family-body)] leading-relaxed">
-            At Kolabix, we're not just an IT service provider – we're your
-            strategic technology partner. With years of experience in delivering
-            cutting-edge solutions, we understand that every business has unique
-            challenges and requirements.
-          </p>
-          <p class="text-lg text-[var(--gray-text-color)] font-[var(--font-family-body)] leading-relaxed">
-            Our team of expert developers, architects, and consultants work
-            closely with you to design and implement solutions that drive real
-            business value and sustainable growth.
-          </p>
-        </div>
-
-        <!-- Key Features -->
-        <div class="grid sm:grid-cols-2 gap-6">
-          <div class="space-y-4">
-            <div class="flex items-start gap-4">
-              <div class="w-12 h-12 bg-[var(--primary-color)] rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-trophy text-white text-xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <h3 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-                  Proven Expertise
-                </h3>
-                <p class="text-[var(--gray-text-color)] text-sm">
-                  10+ years of delivering successful IT projects across multiple
-                  industries
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <div class="w-12 h-12 bg-[var(--accent2-color)] rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-users text-white text-xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <h3 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-                  Dedicated Team
-                </h3>
-                <p class="text-[var(--gray-text-color)] text-sm">
-                  Skilled professionals committed to your project's success
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="space-y-4">
-            <div class="flex items-start gap-4">
-              <div class="w-12 h-12 bg-[var(--accent-color)] rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-rocket text-white text-xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <h3 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-                  Agile Delivery
-                </h3>
-                <p class="text-[var(--gray-text-color)] text-sm">
-                  Fast, iterative development with continuous feedback and
-                  improvement
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <div class="w-12 h-12 bg-[var(--accent3-color)] rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-shield-alt text-white text-xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <h3 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-                  Enterprise Security
-                </h3>
-                <p class="text-[var(--gray-text-color)] text-sm">
-                  Industry-leading security practices and compliance standards
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CTA Button -->
-        <div class="pt-6">
-          <a href="/about" class="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">
-            <span>Learn More About Us</span>
-            <i class="fas fa-arrow-right" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Visual Side -->
-      <div class="relative">
-        <!-- Main Image -->
-        <div class="relative bg-white rounded-2xl shadow-2xl p-8 transform hover:scale-105 transition-transform duration-500">
-          <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/9ae20c4d-b000-4519-0152-eb6760b5f400/public" alt="Man, woman and tablet with overlay for technology, maintenance in dark data center or futuristic. Teamwork, digital information and cloud computing with app, network programming or problem solving" data-media="{&quot;id&quot;:&quot;2162632123&quot;,&quot;src&quot;:&quot;iStock&quot;,&quot;type&quot;:&quot;image&quot;}" class="w-full h-auto rounded-xl" oncontextmenu="return false;">
-        </div>
-
-        <!-- Floating Stats -->
-        <div class="absolute -top-6 -left-6 bg-white rounded-2xl shadow-lg p-6 border border-[var(--light-border-color)]">
-          <div class="text-center">
-            <div class="text-3xl font-bold text-[var(--primary-color)] font-[var(--font-family-heading)]">
-              50+
-            </div>
-            <div class="text-sm text-[var(--gray-text-color)]">
-              Happy Clients
-            </div>
-          </div>
-        </div>
-
-        <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-lg p-6 border border-[var(--light-border-color)]">
-          <div class="text-center">
-            <div class="text-3xl font-bold text-[var(--accent2-color)] font-[var(--font-family-heading)]">
-              99%
-            </div>
-            <div class="text-sm text-[var(--gray-text-color)]">
-              Success Rate
-            </div>
-          </div>
-        </div>
-
-        <!-- Decorative Elements -->
-        <div class="absolute top-1/4 -right-4 w-8 h-8 bg-[var(--accent-color)] rounded-full opacity-80 animate-bounce delay-300"></div>
-        <div class="absolute bottom-1/4 -left-4 w-6 h-6 bg-[var(--accent3-color)] rounded-full opacity-60 animate-pulse"></div>
-      </div>
+<!-- ENTERPRISE SOLUTIONS SECTION -->
+<section style="background:var(--light-bg)">
+  <div class="container">
+    <div class="section-header fade-in">
+        <div class="badge badge-primary">Services</div>
+        <h2>Enterprise <span class="gradient-text">Solutions</span></h2>
+        <p>We provide Fortune 500-grade technology solutions that drive digital transformation and measurable business results across global enterprises.</p>
     </div>
 
-    <!-- Process Section -->
-    <div class="mt-20 pt-16 border-t border-[var(--light-border-color)]">
-      <div class="text-center mb-12">
-        <h3 class="text-2xl sm:text-3xl font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-4">
-          Our Development Process
-        </h3>
-        <p class="text-lg text-[var(--gray-text-color)] max-w-2xl mx-auto font-[var(--font-family-body)]">
-          We follow a proven methodology to ensure your project is delivered on
-          time, within budget, and exceeds expectations.
-        </p>
-      </div>
-
-      <div class="grid md:grid-cols-4 gap-8">
-        <!-- Step 1 -->
-        <div class="text-center group">
-          <div class="w-16 h-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-button-bg-color)] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-            <span class="text-white font-bold text-xl">1</span>
-          </div>
-          <h4 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-            Discovery
-          </h4>
-          <p class="text-[var(--gray-text-color)] text-sm">
-            Understanding your business needs and technical requirements
-          </p>
+    <div class="grid-3">
+        <!-- Solution 1 -->
+        <div class="card fade-in">
+            <div class="card-icon" style="background:var(--dark-bg); color:white;">
+                <i class="fas fa-code"></i>
+            </div>
+            <h4>Enterprise Software Development</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">Mission-critical software solutions built to Fortune 500 standards with enterprise-grade security and scalability.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Enterprise Web &amp; Mobile Apps</li>
+                <li><i class="fas fa-check"></i> API Development &amp; Integration</li>
+                <li><i class="fas fa-check"></i> Legacy System Modernization</li>
+            </ul>
         </div>
-
-        <!-- Step 2 -->
-        <div class="text-center group">
-          <div class="w-16 h-16 bg-gradient-to-r from-[var(--accent2-color)] to-[var(--accent4-color)] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-            <span class="text-white font-bold text-xl">2</span>
-          </div>
-          <h4 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-            Planning
-          </h4>
-          <p class="text-[var(--gray-text-color)] text-sm">
-            Creating detailed project roadmap and technical architecture
-          </p>
+        <!-- Solution 2 -->
+        <div class="card fade-in fade-in-delay-1">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent2-color), var(--accent4-color)); color:white;">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <h4>Cloud Architecture</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">Enterprise-grade cloud infrastructure and migration services optimized for global scale and performance.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Multi-Cloud Architecture</li>
+                <li><i class="fas fa-check"></i> AWS, Azure, Google Cloud</li>
+                <li><i class="fas fa-check"></i> DevOps &amp; CI/CD Pipelines</li>
+            </ul>
         </div>
-
-        <!-- Step 3 -->
-        <div class="text-center group">
-          <div class="w-16 h-16 bg-gradient-to-r from-[var(--accent-color)] to-[var(--accent3-color)] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-            <span class="text-white font-bold text-xl">3</span>
-          </div>
-          <h4 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-            Development
-          </h4>
-          <p class="text-[var(--gray-text-color)] text-sm">
-            Agile development with regular updates and feedback loops
-          </p>
+        <!-- Solution 3 -->
+        <div class="card fade-in fade-in-delay-2">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent4-color), var(--primary-color)); color:white;">
+                <i class="fas fa-brain"></i>
+            </div>
+            <h4>AI &amp; Data Analytics</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">Transform enterprise data into strategic insights with advanced AI and machine learning solutions.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Enterprise BI Dashboards</li>
+                <li><i class="fas fa-check"></i> Machine Learning Models</li>
+                <li><i class="fas fa-check"></i> Predictive Analytics</li>
+            </ul>
         </div>
-
-        <!-- Step 4 -->
-        <div class="text-center group">
-          <div class="w-16 h-16 bg-gradient-to-r from-[var(--accent3-color)] to-[var(--primary-color)] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-            <span class="text-white font-bold text-xl">4</span>
-          </div>
-          <h4 class="text-lg font-bold text-[var(--dark-text-color)] font-[var(--font-family-heading)] mb-2">
-            Deployment
-          </h4>
-          <p class="text-[var(--gray-text-color)] text-sm">
-            Seamless launch with ongoing support and maintenance
-          </p>
+        <!-- Solution 4 -->
+        <div class="card fade-in">
+            <div class="card-icon" style="background:linear-gradient(135deg, #2D5A87, var(--dark-bg)); color:white;">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <h4>Enterprise Security</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">Comprehensive cybersecurity solutions designed to protect Fortune 500 enterprises from evolving threats.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Security Architecture Review</li>
+                <li><i class="fas fa-check"></i> Zero-Trust Implementation</li>
+                <li><i class="fas fa-check"></i> Compliance &amp; Risk Management</li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</section><section id="sbq3may" class="code-section py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Section Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-6">
-        Global Industries We
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7]">Serve</span>
-      </h2>
-      <p class="text-lg text-gray-600 max-w-3xl mx-auto font-[var(--font-family-body)]">
-        Our enterprise expertise spans across Fortune 500 industries, delivering
-        tailored technology solutions that address complex sector-specific
-        challenges and regulatory requirements.
-      </p>
-    </div>
-
-    <!-- Industries Grid -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-      <!-- Healthcare -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#2D5A87] to-[#0B1426] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-heartbeat text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Healthcare &amp; Life Sciences
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            HIPAA-compliant enterprise solutions for healthcare systems,
-            pharmaceutical companies, and medical device manufacturers.
-          </p>
+        <!-- Solution 5 -->
+        <div class="card fade-in fade-in-delay-1">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent2-color), #2D5A87); color:white;">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4>Strategic Consulting</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">C-level technology consulting to align enterprise IT strategy with business objectives and market opportunities.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Digital Transformation Strategy</li>
+                <li><i class="fas fa-check"></i> Technology Roadmapping</li>
+                <li><i class="fas fa-check"></i> Enterprise Architecture</li>
+            </ul>
         </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Enterprise Health Records (EHR)
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Population Health Management
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Clinical Research Platforms
-          </li>
-        </ul>
-      </div>
-
-      <!-- Finance -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-university text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Financial Services
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Enterprise-grade fintech solutions for investment banks, insurance
-            companies, and financial institutions with regulatory compliance.
-          </p>
+        <!-- Solution 6 -->
+        <div class="card fade-in fade-in-delay-2">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent4-color), var(--accent2-color)); color:white;">
+                <i class="fas fa-tools"></i>
+            </div>
+            <h4>Managed Services</h4>
+            <p style="font-size:0.9rem; margin:0.5rem 0 1.5rem;">24/7 enterprise-grade support and proactive maintenance with guaranteed SLAs and global coverage.</p>
+            <ul class="feature-list">
+                <li><i class="fas fa-check"></i> 24/7 Global Support</li>
+                <li><i class="fas fa-check"></i> Proactive Monitoring</li>
+                <li><i class="fas fa-check"></i> SLA-Guaranteed Performance</li>
+            </ul>
         </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Core Banking Systems
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Risk Management Platforms
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Regulatory Compliance Solutions
-          </li>
-        </ul>
-      </div>
-
-      <!-- Technology -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#4FC3F7] to-[#2D5A87] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-microchip text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Technology &amp; Software
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Enterprise software platforms and technology infrastructure for
-            Fortune 500 tech companies and software enterprises.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Enterprise SaaS Platforms
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Cloud Infrastructure Management
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            DevOps &amp; Automation
-          </li>
-        </ul>
-      </div>
-
-      <!-- Manufacturing -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#0B1426] to-[#00D4AA] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-industry text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Manufacturing &amp; Logistics
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Industry 4.0 solutions for smart manufacturing, supply chain
-            optimization, and enterprise resource planning.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Smart Factory Solutions
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Supply Chain Management
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Predictive Maintenance
-          </li>
-        </ul>
-      </div>
-
-      <!-- Energy -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#4FC3F7] to-[#00D4AA] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-bolt text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Energy &amp; Utilities
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Smart grid technologies, renewable energy management, and utility
-            optimization for global energy companies.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Smart Grid Management
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Energy Analytics Platforms
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Asset Optimization Systems
-          </li>
-        </ul>
-      </div>
-
-      <!-- Government -->
-      <div class="group bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-200">
-        <div class="mb-6">
-          <div class="w-16 h-16 bg-gradient-to-r from-[#2D5A87] to-[#4FC3F7] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-landmark text-white text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="text-xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-3">
-            Government &amp; Public Sector
-          </h3>
-          <p class="text-gray-600 font-[var(--font-family-body)] mb-4">
-            Secure, scalable solutions for government agencies, public
-            institutions, and civic technology initiatives.
-          </p>
-        </div>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Digital Government Services
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Citizen Engagement Platforms
-          </li>
-          <li class="flex items-center gap-2">
-            <i class="fas fa-check text-[#00D4AA]" aria-hidden="true"></i>
-            Public Safety Systems
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Statistics Section -->
-    <div class="bg-gradient-to-r from-[#0B1426] via-[#1E3A5F] to-[#2D5A87] rounded-2xl p-8 lg:p-12">
-      <div class="grid md:grid-cols-4 gap-8 text-center text-white">
-        <div>
-          <div class="text-3xl lg:text-4xl font-bold font-[var(--font-family-heading)] mb-2">
-            15+
-          </div>
-          <div class="text-lg opacity-90">Global Industries</div>
-        </div>
-        <div>
-          <div class="text-3xl lg:text-4xl font-bold font-[var(--font-family-heading)] mb-2">
-            Fortune 500
-          </div>
-          <div class="text-lg opacity-90">Enterprise Clients</div>
-        </div>
-        <div>
-          <div class="text-3xl lg:text-4xl font-bold font-[var(--font-family-heading)] mb-2">
-            99%
-          </div>
-          <div class="text-lg opacity-90">Client Satisfaction</div>
-        </div>
-        <div>
-          <div class="text-3xl lg:text-4xl font-bold font-[var(--font-family-heading)] mb-2">
-            28+
-          </div>
-          <div class="text-lg opacity-90">Years Excellence</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- CTA Section -->
-    <div class="text-center mt-16">
-      <h3 class="text-2xl lg:text-3xl font-bold text-[#0B1426] font-[var(--font-family-heading)] mb-4">
-        Your Industry Not Listed?
-      </h3>
-      <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto font-[var(--font-family-body)]">
-        We adapt our enterprise solutions to serve businesses across all
-        sectors. Let's discuss how we can transform your industry with
-        cutting-edge technology.
-      </p>
-      <a href="/contact" class="inline-flex items-center gap-2 bg-[#0B1426] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-all duration-300 transform hover:scale-105">
-        <span>Schedule Industry Consultation</span>
-        <i class="fas fa-arrow-right" aria-hidden="true"></i>
-      </a>
     </div>
   </div>
 </section>
-<section id="st2o0ci" class="code-section py-20 bg-white relative overflow-hidden">
-  <div class="container mx-auto px-4 lg:px-6">
-    <div class="grid lg:grid-cols-2 gap-16 items-center">
-      <!-- Content Column -->
+
+<!-- WHY CHOOSE KOLABIX SECTION -->
+<section style="background:#fff">
+  <div class="container">
+    <div class="grid-2" style="align-items:center; ">
+        <div class="fade-in">
+            <div class="badge badge-accent mb-3">Kolabix Advantage</div>
+            <h2 style="margin-bottom:1rem">Why Choose <span class="gradient-text">Kolabix</span>?</h2>
+            <p style="margin-bottom:1rem">At Kolabix, we're not just an IT service provider – we're your strategic technology partner. With 28+ years of expertise in delivering cutting-edge solutions, we understand that every business has unique challenges and requirements.</p>
+            <p style="margin-bottom:2rem">Our team of expert developers, architects, and consultants work closely with you to design and implement solutions that drive real business value and sustainable growth.</p>
+            
+            <div class="grid-2" style="gap:1.5rem;">
+                <div class="flex" style="gap:1rem">
+                    <div style="background:rgba(88,81,219,0.1); width:3rem; height:3rem; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-trophy text-primary"></i>
+                    </div>
+                    <div>
+                        <h4 style="font-size:1rem; margin-bottom:0.25rem;">Proven Expertise</h4>
+                        <p style="font-size:0.85rem;">28+ years backing delivering successful projects across multiple industries</p>
+                    </div>
+                </div>
+                <div class="flex" style="gap:1rem">
+                    <div style="background:rgba(255,168,74,0.1); width:3rem; height:3rem; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-rocket text-accent"></i>
+                    </div>
+                    <div>
+                        <h4 style="font-size:1rem; margin-bottom:0.25rem;">Agile Delivery</h4>
+                        <p style="font-size:0.85rem;">Fast, iterative development with continuous feedback and improvement</p>
+                    </div>
+                </div>
+                <div class="flex" style="gap:1rem">
+                    <div style="background:rgba(51,217,178,0.1); width:3rem; height:3rem; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-shield-alt text-accent2"></i>
+                    </div>
+                    <div>
+                        <h4 style="font-size:1rem; margin-bottom:0.25rem;">Enterprise Security</h4>
+                        <p style="font-size:0.85rem;">Industry-leading security practices and compliance standards</p>
+                    </div>
+                </div>
+                <div class="flex" style="gap:1rem">
+                    <div style="background:rgba(255,87,118,0.1); width:3rem; height:3rem; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                        <i class="fas fa-headset text-accent3"></i>
+                    </div>
+                    <div>
+                        <h4 style="font-size:1rem; margin-bottom:0.25rem;">24/7 Support</h4>
+                        <p style="font-size:0.85rem;">Skilled professionals committed to your project's optimal success and uptime</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top:2.5rem;">
+                <a href="/about" class="btn btn-primary btn-lg">Learn More About Us <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="fade-in fade-in-delay-1" style="position:relative">
+            <div style="background:linear-gradient(135deg, var(--primary-color), var(--accent-color)); position:absolute; inset:0; border-radius:var(--radius-lg); transform:rotate(2deg); opacity:0.8;"></div>
+            <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/26e30982-84a2-453c-1dc7-e5e4f5060d00/publicContain" alt="Kolabix Expert Team" style="border-radius:var(--radius-lg); position:relative; z-index:2; transform:rotate(-1deg); box-shadow:var(--shadow-xl); width:100%;" oncontextmenu="return false;">
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES WE SERVE SECTION -->
+<section style="background:var(--dark-bg); color:white;">
+  <div class="container">
+    <div class="section-header fade-in">
+        <div class="badge badge-white">Global Reach</div>
+        <h2 style="color:white">Global Industries We <span class="gradient-text">Serve</span></h2>
+        <p style="color:rgba(255,255,255,0.7)">Our enterprise expertise spans across Fortune 500 industries, delivering tailored technology solutions that address complex sector-specific challenges and regulatory requirements.</p>
+    </div>
+
+    <div class="grid-3 mb-4">
+        <div class="card-dark fade-in">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent2-color), var(--primary-color));">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Healthcare &amp; Life Sciences</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">HIPAA-compliant enterprise solutions for healthcare systems and pharmaceuticals.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Enterprise Health Records</li>
+                <li><i class="fas fa-check"></i> Population Health Management</li>
+            </ul>
+        </div>
+        <div class="card-dark fade-in fade-in-delay-1">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--primary-color), var(--accent4-color));">
+                <i class="fas fa-university"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Financial Services</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">Enterprise-grade fintech solutions for investment banks and insurance companies.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Core Banking Systems</li>
+                <li><i class="fas fa-check"></i> Risk Management Platforms</li>
+            </ul>
+        </div>
+        <div class="card-dark fade-in fade-in-delay-2">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent-color), var(--accent3-color));">
+                <i class="fas fa-microchip"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Technology &amp; Software</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">Enterprise software platforms and tech infrastructure for Fortune 500 tech companies.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Enterprise SaaS Platforms</li>
+                <li><i class="fas fa-check"></i> DevOps &amp; Automation</li>
+            </ul>
+        </div>
+        <div class="card-dark fade-in">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent3-color), var(--primary-color));">
+                <i class="fas fa-industry"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Manufacturing &amp; Logistics</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">Industry 4.0 solutions for smart manufacturing and supply chain optimization.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Smart Factory Solutions</li>
+                <li><i class="fas fa-check"></i> Predictive Maintenance</li>
+            </ul>
+        </div>
+        <div class="card-dark fade-in fade-in-delay-1">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--accent2-color), var(--accent-color));">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Energy &amp; Utilities</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">Smart grid technologies and renewable energy management for global companies.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Smart Grid Management</li>
+                <li><i class="fas fa-check"></i> Asset Optimization Systems</li>
+            </ul>
+        </div>
+        <div class="card-dark fade-in fade-in-delay-2">
+            <div class="card-icon" style="background:linear-gradient(135deg, var(--primary-color), #2D5A87);">
+                <i class="fas fa-landmark"></i>
+            </div>
+            <h4 style="color:white; margin-bottom:0.5rem;">Government &amp; Public Sector</h4>
+            <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; margin-bottom:1rem;">Secure, scalable solutions for government agencies and civic technologies.</p>
+            <ul class="feature-list feature-list-white">
+                <li><i class="fas fa-check"></i> Digital Government Services</li>
+                <li><i class="fas fa-check"></i> Public Safety Systems</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEVELOPMENT PROCESS SECTION -->
+<section style="background:var(--light-bg)">
+  <div class="container">
+    <div class="section-header fade-in">
+        <div class="badge badge-accent2">Process</div>
+        <h2>Our <span class="gradient-text">Development</span> Process</h2>
+        <p>We follow a proven methodology to ensure your project is delivered on time, within budget, and exceeds expectations.</p>
+    </div>
+
+    <div class="process-steps fade-in">
+        <div class="process-step">
+            <div class="step-number" style="background:linear-gradient(135deg, var(--primary-color), var(--secondary-btn));">1</div>
+            <h4>Discovery</h4>
+            <p style="font-size:0.9rem; margin-top:0.5rem;">Understanding your business needs and technical requirements.</p>
+        </div>
+        <div class="process-step">
+            <div class="step-number" style="background:linear-gradient(135deg, var(--accent2-color), var(--accent4-color));">2</div>
+            <h4>Planning</h4>
+            <p style="font-size:0.9rem; margin-top:0.5rem;">Creating a detailed project roadmap and technical architecture.</p>
+        </div>
+        <div class="process-step">
+            <div class="step-number" style="background:linear-gradient(135deg, var(--accent-color), var(--accent3-color));">3</div>
+            <h4>Development</h4>
+            <p style="font-size:0.9rem; margin-top:0.5rem;">Agile development with regular updates and feedback loops.</p>
+        </div>
+        <div class="process-step">
+            <div class="step-number" style="background:linear-gradient(135deg, var(--accent3-color), var(--primary-color));">4</div>
+            <h4>Deployment</h4>
+            <p style="font-size:0.9rem; margin-top:0.5rem;">Seamless launch with ongoing support and maintenance.</p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="badge badge-white">Let's Work Together</div>
+    <h2>Ready to Accelerate Your Digital Transformation?</h2>
+    <p>Join the world's leading companies who trust Kolabix for their mission-critical technology initiatives. Schedule a strategic consultation today.</p>
+    <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+        <a href="/contact" class="btn btn-outline-white btn-lg"><i class="fas fa-rocket"></i> Schedule Consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
       <div>
-        <h2 class="font-[var(--font-family-heading)] text-4xl lg:text-5xl font-bold text-[var(--dark-text-color)] mb-6">
-          Why Choose <span class="text-[var(--primary-color)]">Kolabix</span>?
-        </h2>
-        <p class="font-[var(--font-family-body)] text-xl text-[var(--gray-text-color)] mb-12 leading-relaxed">
-          We combine deep technical expertise with a customer-first approach to
-          deliver IT solutions that truly make a difference for your business.
-        </p>
-
-        <!-- Features Grid -->
-        <div class="grid sm:grid-cols-2 gap-8 mb-12">
-          <div class="flex items-start space-x-4">
-            <div class="w-12 h-12 bg-[var(--accent2-color)] bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-              <i class="fas fa-medal text-[var(--accent2-color)] text-xl" aria-hidden="true"></i>
-            </div>
-            <div>
-              <h3 class="font-[var(--font-family-heading)] text-lg font-bold text-[var(--dark-text-color)] mb-2">
-                Expert Team
-              </h3>
-              <p class="font-[var(--font-family-body)] text-[var(--gray-text-color)] text-sm leading-relaxed">
-                Certified professionals with years of experience across diverse
-                industries and technologies.
-              </p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-4">
-            <div class="w-12 h-12 bg-[var(--accent-color)] bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-              <i class="fas fa-rocket text-[var(--accent-color)] text-xl" aria-hidden="true"></i>
-            </div>
-            <div>
-              <h3 class="font-[var(--font-family-heading)] text-lg font-bold text-[var(--dark-text-color)] mb-2">
-                Fast Deployment
-              </h3>
-              <p class="font-[var(--font-family-body)] text-[var(--gray-text-color)] text-sm leading-relaxed">
-                Agile methodologies and proven frameworks for rapid solution
-                delivery and implementation.
-              </p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-4">
-            <div class="w-12 h-12 bg-[var(--accent3-color)] bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-              <i class="fas fa-shield-alt text-[var(--accent3-color)] text-xl" aria-hidden="true"></i>
-            </div>
-            <div>
-              <h3 class="font-[var(--font-family-heading)] text-lg font-bold text-[var(--dark-text-color)] mb-2">
-                Enterprise Security
-              </h3>
-              <p class="font-[var(--font-family-body)] text-[var(--gray-text-color)] text-sm leading-relaxed">
-                Bank-level security protocols and compliance standards to
-                protect your sensitive data.
-              </p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-4">
-            <div class="w-12 h-12 bg-[var(--accent4-color)] bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-              <i class="fas fa-headset text-[var(--accent4-color)] text-xl" aria-hidden="true"></i>
-            </div>
-            <div>
-              <h3 class="font-[var(--font-family-heading)] text-lg font-bold text-[var(--dark-text-color)] mb-2">
-                24/7 Support
-              </h3>
-              <p class="font-[var(--font-family-body)] text-[var(--gray-text-color)] text-sm leading-relaxed">
-                Round-the-clock technical support and monitoring to ensure
-                optimal system performance.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Stats -->
-        <div class="grid grid-cols-3 gap-8 pt-8 border-t border-[var(--light-border-color)]">
-          <div class="text-center">
-            <div class="font-[var(--font-family-heading)] text-3xl lg:text-4xl font-bold text-[var(--primary-color)] mb-2">
-              50+
-            </div>
-            <div class="font-[var(--font-family-body)] text-sm text-[var(--gray-text-color)]">
-              Projects Completed
-            </div>
-          </div>
-          <div class="text-center">
-            <div class="font-[var(--font-family-heading)] text-3xl lg:text-4xl font-bold text-[var(--accent2-color)] mb-2">
-              24/7
-            </div>
-            <div class="font-[var(--font-family-body)] text-sm text-[var(--gray-text-color)]">
-              Support Available
-            </div>
-          </div>
-          <div class="text-center">
-            <div class="font-[var(--font-family-heading)] text-3xl lg:text-4xl font-bold text-[var(--accent-color)] mb-2">
-              99.9%
-            </div>
-            <div class="font-[var(--font-family-body)] text-sm text-[var(--gray-text-color)]">
-              Uptime Guarantee
-            </div>
-          </div>
-        </div>
+        <div class="footer-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></div>
+        <p class="footer-desc">Your trusted partner for custom IT solutions. We deliver cutting-edge technology that drives business growth and digital transformation.</p>
+        <a href="mailto:ops@kolabix.com" class="footer-contact-item"><i class="fas fa-envelope"></i> ops@kolabix.com</a>
+        <a href="tel:+18149292960" class="footer-contact-item"><i class="fas fa-phone"></i> +1 (814) 929-2960</a>
+        <a href="https://wa.me/918004978020" target="_blank" rel="noopener" class="footer-contact-item"><i class="fab fa-whatsapp"></i> +91 80049 78020</a>
+        <div class="footer-contact-item"><i class="fas fa-globe"></i> Global Remote Services</div>
       </div>
-
-      <!-- Image Column -->
-      <div class="relative">
-        <div class="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)] to-[var(--accent-color)] rounded-3xl transform rotate-3"></div>
-        <div class="relative bg-white rounded-3xl p-8 shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-500">
-          <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/26e30982-84a2-453c-1dc7-e5e4f5060d00/publicContain" alt="Customer service concept, technical support with global customer support and network Internet technology supports digital services" data-media="{&quot;id&quot;:&quot;2154155105&quot;,&quot;src&quot;:&quot;iStock&quot;,&quot;type&quot;:&quot;image&quot;}" class="w-full h-auto rounded-2xl" oncontextmenu="return false;">
-
-          <!-- Floating Elements -->
-          <div class="absolute -top-4 -right-4 w-16 h-16 bg-[var(--accent2-color)] rounded-full flex items-center justify-center shadow-lg animate-pulse">
-            <i class="fas fa-check text-white text-xl" aria-hidden="true"></i>
-          </div>
-
-          <div class="absolute -bottom-4 -left-4 w-20 h-20 bg-[var(--accent-color)] rounded-full flex items-center justify-center shadow-lg">
-            <i class="fas fa-globe text-white text-2xl" aria-hidden="true"></i>
-          </div>
-
-          <!-- Info Cards -->
-          <div class="absolute top-8 left-8 bg-white bg-opacity-95 backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
-            <div class="flex items-center space-x-2">
-              <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-              <span class="font-[var(--font-family-body)] text-sm font-medium text-[var(--dark-text-color)]">System Online</span>
-            </div>
-          </div>
-
-          <div class="absolute bottom-8 right-8 bg-white bg-opacity-95 backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
-            <div class="text-center">
-              <div class="font-[var(--font-family-heading)] text-lg font-bold text-[var(--primary-color)]">
-                15min
-              </div>
-              <div class="font-[var(--font-family-body)] text-xs text-[var(--gray-text-color)]">
-                Response Time
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><section id="sxawsx6" class="code-section relative py-20 bg-gradient-to-br from-[#0B1426] via-[#1E3A5F] to-[#2D5A87] overflow-hidden">
-  <!-- Background Image with Overlay -->
-  <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/bd108cbd-4853-406e-e7f6-d01200330a00/publicContain')" data-media="{&quot;id&quot;:&quot;2220733208&quot;,&quot;src&quot;:&quot;iStock&quot;,&quot;type&quot;:&quot;image&quot;}" alt="Abstract 3D digital grid with dynamic data lines and glowing dots, representing big data processing, analytics, machine learning, and futuristic technology visualization." oncontextmenu="return false;"></div>
-
-  <!-- Animated Background Elements -->
-  <div class="absolute inset-0 overflow-hidden pointer-events-none">
-    <div class="absolute top-1/4 left-10 w-32 h-32 border border-[#00D4AA] border-opacity-30 rounded-full animate-pulse"></div>
-    <div class="absolute top-3/4 right-20 w-24 h-24 border border-[#4FC3F7] border-opacity-40 rounded-full animate-bounce"></div>
-    <div class="absolute bottom-1/4 left-1/4 w-16 h-16 border border-[#00D4AA] border-opacity-50 rounded-full animate-pulse delay-1000"></div>
-  </div>
-
-  <div class="container mx-auto px-4 lg:px-6 relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <!-- Header -->
-      <h2 class="font-[var(--font-family-heading)] text-4xl lg:text-6xl font-bold text-white mb-6">
-        Ready to
-        <span class="bg-gradient-to-r from-[#00D4AA] to-[#4FC3F7] bg-clip-text text-transparent">Accelerate</span>
-        Your Digital Transformation?
-      </h2>
-
-      <p class="font-[var(--font-family-body)] text-xl lg:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-        Let's discuss your unique challenges and create a custom IT strategy
-        that drives real results for your business. Our experts are ready to
-        help you succeed.
-      </p>
-
-      <!-- CTA Buttons -->
-      <div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-        <a href="/contact" class="group bg-[#00D4AA] hover:bg-[#4FC3F7] text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center space-x-3">
-          <i class="fas fa-calendar-alt text-xl group-hover:animate-pulse" aria-hidden="true"></i>
-          <span>Schedule Free Consultation</span>
-          <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-200" aria-hidden="true"></i>
-        </a>
-      </div>
-
-      <!-- Contact Methods -->
-      <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-        <!-- Phone -->
-        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 group">
-          <div class="w-16 h-16 bg-[#00D4AA] bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-phone text-[#00D4AA] text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="font-[var(--font-family-heading)] text-xl font-bold text-white mb-3">
-            Call Us Today
-          </h3>
-          <p class="font-[var(--font-family-body)] text-gray-300 mb-4">
-            Speak directly with our IT experts
-          </p>
-          <a href="tel:+18149292960" class="text-[#00D4AA] font-semibold hover:text-[#4FC3F7] transition-colors duration-200">
-            +1 (814) 929-2960
-          </a>
-        </div>
-
-        <!-- Email -->
-        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 group">
-          <div class="w-16 h-16 bg-[#4FC3F7] bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-envelope text-[#4FC3F7] text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="font-[var(--font-family-heading)] text-xl font-bold text-white mb-3">
-            Send Us Email
-          </h3>
-          <p class="font-[var(--font-family-body)] text-gray-300 mb-4">
-            Get detailed project proposals
-          </p>
-          <a href="mailto:ops@kolabix.com" class="text-[#4FC3F7] font-semibold hover:text-[#00D4AA] transition-colors duration-200">
-            ops@kolabix.com
-          </a>
-        </div>
-
-        <!-- Office -->
-        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 group">
-          <div class="w-16 h-16 bg-[#00D4AA] bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-            <i class="fas fa-globe text-[#00D4AA] text-2xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="font-[var(--font-family-heading)] text-xl font-bold text-white mb-3">
-            Global Headquarters
-          </h3>
-          <p class="font-[var(--font-family-body)] text-gray-300 mb-4">
-            Connect with our worldwide team
-          </p>
-          <address class="text-[#00D4AA] font-semibold not-italic">
-            North America • Europe • Asia Pacific
-          </address>
-        </div>
-      </div>
-
-      <!-- Trust Badges -->
-      <div class="mt-16 pt-12 border-t border-white border-opacity-20">
-        <p class="font-[var(--font-family-body)] text-gray-400 mb-8">
-          Trusted by businesses worldwide
-        </p>
-        <div class="flex flex-wrap items-center justify-center gap-12 opacity-70">
-          <div class="flex items-center space-x-2">
-            <i class="fas fa-certificate text-[#00D4AA] text-2xl" aria-hidden="true"></i>
-            <span class="text-white font-medium">White Labelled Solutions</span>
-          </div>
-          <div class="flex items-center space-x-2">
-            <i class="fas fa-award text-[#4FC3F7] text-2xl" aria-hidden="true"></i>
-            <span class="text-white font-medium">Guaranteed Privacy</span>
-          </div>
-          <div class="flex items-center space-x-2">
-            <i class="fas fa-shield-alt text-[#00D4AA] text-2xl" aria-hidden="true"></i>
-            <span class="text-white font-medium">GDPR Compliant</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<footer id="global-footer" class="code-section bg-[var(--dark-background-color)] text-[var(--light-text-color)] pt-16 pb-8">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Main Footer Content -->
-    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
-      <!-- Company Info -->
-      <div class="lg:col-span-2">
-        <div class="mb-6">
-          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-4 text-white">
-            Kolabix
-          </h3>
-          <p class="text-gray-300 font-[var(--font-family-body)] text-lg leading-relaxed max-w-md">
-            Your trusted partner for custom IT solutions. We deliver
-            cutting-edge technology that drives business growth and digital
-            transformation.
-          </p>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="space-y-3">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[var(--primary-color)] rounded-lg flex items-center justify-center">
-              <i class="fas fa-envelope text-white" aria-hidden="true"></i>
-            </div>
-            <div>
-              <div class="text-sm text-gray-400">Email</div>
-              <a href="mailto:ops@kolabix.com" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">ops@kolabix.com</a>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[var(--accent2-color)] rounded-lg flex items-center justify-center">
-              <i class="fas fa-phone text-white" aria-hidden="true"></i>
-            </div>
-            <div>
-              <div class="text-sm text-gray-400">Phone</div>
-              <a href="tel:+18149292960" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+1 (814) 929-2960</a>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[var(--accent-color)] rounded-lg flex items-center justify-center">
-              <i class="fab fa-whatsapp text-white" aria-hidden="true"></i>
-            </div>
-            <div>
-              <div class="text-sm text-gray-400">WhatsApp</div>
-              <a href="https://wa.me/918004978020" class="text-white hover:text-[var(--accent2-color)] transition-colors duration-300">+91 80049 78020</a>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[var(--accent3-color)] rounded-lg flex items-center justify-center">
-              <i class="fas fa-map-marker-alt text-white" aria-hidden="true"></i>
-            </div>
-            <div>
-              <div class="text-sm text-gray-400">Location</div>
-              <span class="text-white">Global Remote Services</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Quick Links -->
       <div>
-        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
-          Quick Links
-        </h3>
-        <ul class="space-y-3">
-          <li>
-            <a href="/" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Home</a>
-          </li>
-          <li>
-            <a href="/about" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">About Us</a>
-          </li>
-          <li>
-            <a href="/pricing" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Services &amp; Pricing</a>
-          </li>
-          <li>
-            <a href="/digidinez" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">DigiDinez</a>
-          </li>
-          <li>
-            <a href="/ai-agent-development" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Agents</a>
-          </li>
-          <li>
-            <a href="/ai-chatbot-solutions" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot for SMBs</a>
-          </li>
-          <li>
-            <a href="/ai-chatbot-business" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">AI Chatbot Business</a>
-          </li>
-          <li>
-            <a href="/industries" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Industries</a>
-          </li>
-          <li>
-            <a href="/contact" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Contact</a>
-          </li>
-          <li>
-            <a href="/privacy-policy" class="text-gray-300 hover:text-[var(--accent2-color)] transition-colors duration-300 font-[var(--font-family-body)]">Privacy Policy</a>
-          </li>
-        </ul>
+        <p class="footer-heading">Quick Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/about" class="footer-link">About Us</a>
+        <a href="/pricing" class="footer-link">Services &amp; Pricing</a>
+        <a href="/digidinez" class="footer-link">DigiDinez</a>
+        <a href="/ai-agent-development" class="footer-link">AI Agents</a>
+        <a href="/ai-chatbot-solutions" class="footer-link">AI Chatbot for SMBs</a>
+        <a href="/ai-chatbot-business" class="footer-link">AI Chatbot Business</a>
+        <a href="/industries" class="footer-link">Industries</a>
+        <a href="/contact" class="footer-link">Contact</a>
+        <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
       </div>
-
-      <!-- Services -->
       <div>
-        <h3 class="text-xl font-bold font-[var(--font-family-heading)] mb-6 text-white">
-          Our Services
-        </h3>
-        <ul class="space-y-3">
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">AI Agent Development</span>
-          </li>
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">Custom Software Development</span>
-          </li>
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">Cloud Solutions</span>
-          </li>
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">Data Analytics &amp; AI</span>
-          </li>
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">Cybersecurity</span>
-          </li>
-          <li>
-            <span class="text-gray-300 font-[var(--font-family-body)]">24/7 Support</span>
-          </li>
-        </ul>
+        <p class="footer-heading">Our Services</p>
+        <a href="/ai-agent-development" class="footer-link">AI Agent Development</a>
+        <a href="/pricing" class="footer-link">Custom Software Development</a>
+        <a href="/pricing" class="footer-link">Cloud Solutions</a>
+        <a href="/pricing" class="footer-link">Data Analytics &amp; AI</a>
+        <a href="/pricing" class="footer-link">Cybersecurity</a>
+        <a href="/contact" class="footer-link">24/7 Support</a>
+      </div>
+      <div>
+        <p class="footer-heading">Stay Updated</p>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
+        <form class="newsletter-form" onsubmit="return false">
+          <input type="email" class="newsletter-input" placeholder="Enter your email" aria-label="Email address">
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
       </div>
     </div>
-
-    <!-- Newsletter Signup -->
-    <div class="border-t border-gray-700 pt-8 mb-8">
-      <div class="grid md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h3 class="text-2xl font-bold font-[var(--font-family-heading)] mb-2 text-white">
-            Stay Updated
-          </h3>
-          <p class="text-gray-300 font-[var(--font-family-body)]">
-            Get the latest news about technology trends and our services.
-          </p>
-        </div>
-        <div>
-          <form class="flex gap-2" data-landingsite-contact-form="">
-            <input type="email" name="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-[var(--primary-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] transition-colors duration-300">
-            <button type="submit" class="bg-[var(--primary-color)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105">
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- Copyright -->
-    <div class="border-t border-gray-700 pt-6">
-      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-gray-400 text-sm font-[var(--font-family-body)]">
-          © 2026 Kolabix Innovations LLP. Registered address: A16/102 HARSH
-          UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Mira Road, KANAKIA POLICE
-          STATION, Thane, Thane-401107, Maharashtra, India
-        </p>
-        <div class="flex items-center gap-4">
-          <div class="flex items-center gap-2 text-sm text-gray-400">
-            <i class="fas fa-shield-alt text-[var(--accent2-color)]" aria-hidden="true"></i>
-            <span>Enterprise Security</span>
-          </div>
-          <div class="flex items-center gap-2 text-sm text-gray-400">
-            <i class="fas fa-clock text-[var(--accent-color)]" aria-hidden="true"></i>
-            <span>24/7 Support</span>
-          </div>
-        </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Kolabix Innovations LLP. Registered address: A16/102 HARSH UNIQUE CHS, SHANTI PARK MIRA ROAD (E), Mira Road, KANAKIA POLICE STATION, Thane, Thane-401107, Maharashtra, India</p>
+      <div class="footer-trust">
+        <div class="footer-trust-item"><i class="fas fa-shield-alt"></i> Enterprise Security</div>
+        <div class="footer-trust-item"><i class="fas fa-headset"></i> 24/7 Support</div>
       </div>
     </div>
   </div>
 </footer>
-<script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script></body>
+
+<script src="assets/js/script.js"></script>
+</body>
 </html>
