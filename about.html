@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -20,27 +20,19 @@
     <nav class="nav-inner">
       <a href="/" class="nav-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></a>
       <div class="nav-links">
-        <a href="/about" class="nav-link active">About Us</a>
-        <div class="nav-dropdown">
-          <button class="dropdown-toggle">Services &amp; Pricing <i class="fas fa-chevron-down"></i></button>
-          <div class="dropdown-menu">
-            <a href="/pricing" class="dropdown-item"><i class="fas fa-list-ul"></i> Services &amp; Pricing Overview</a>
-            <a href="/digidinez" class="dropdown-item"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez – Restaurant Menus</a>
-            <a href="/ai-agent-development" class="dropdown-item"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents Development</a>
-          </div>
-        </div>
+        <a href="/about" class="nav-link">About us</a>
+        <a href="/agentic-ai" class="nav-link">Agentic AI</a>
         <a href="/industries" class="nav-link">Industries Served</a>
+        <a href="/pricing" class="nav-link">Pricing</a>
         <a href="/contact" class="btn btn-primary">Request a Quote</a>
       </div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
     </nav>
     <div class="mobile-nav" id="mobile-nav">
-      <a href="/about" class="mobile-nav-link">About Us</a>
-      <div class="mobile-nav-section-title">Services &amp; Pricing</div>
-      <a href="/pricing" class="mobile-nav-sub"><i class="fas fa-list-ul" style="color:var(--primary-color)"></i> Overview</a>
-      <a href="/digidinez" class="mobile-nav-sub"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez</a>
-      <a href="/ai-agent-development" class="mobile-nav-sub"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents</a>
+      <a href="/about" class="mobile-nav-link">About us</a>
+      <a href="/agentic-ai" class="mobile-nav-link">Agentic AI</a>
       <a href="/industries" class="mobile-nav-link">Industries Served</a>
+      <a href="/pricing" class="mobile-nav-link">Pricing</a>
       <div style="padding:1rem 1.5rem"><a href="/contact" class="btn btn-primary w-full" style="justify-content:center">Request a Quote</a></div>
     </div>
   </div>
@@ -50,7 +42,7 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content" style="max-width:750px;text-align:center;margin:0 auto">
-      <div class="badge badge-white mb-3 fade-in">
+      <div class="badge badge-primary mb-3 fade-in">
         <i class="fas fa-clock"></i> 28+ Years of Market Experience
       </div>
       <h1 class="fade-in fade-in-delay-1">Transforming Businesses Through <span class="gradient-text">Innovation</span></h1>
@@ -102,18 +94,18 @@
         </div>
       </div>
 
-      <div class="fade-in" style="background:var(--dark-bg);border-radius:var(--radius-lg);padding:3rem;color:#fff;text-align:center">
-        <div class="badge badge-white mb-3"><i class="fas fa-calendar-alt"></i> 28+ Years Heritage</div>
+      <div class="fade-in" style="background:var(--dark-bg);border-radius:var(--radius-lg);padding:3rem;color:var(--dark-text);text-align:center">
+        <div class="badge badge-primary mb-3"><i class="fas fa-calendar-alt"></i> 28+ Years Heritage</div>
         <div style="font-size:5rem;font-family:var(--font-heading);font-weight:800;color:var(--accent-color);line-height:1">28+</div>
-        <p style="color:rgba(255,255,255,.7);margin-bottom:2rem">Years of delivering successful technology solutions that stand the test of time</p>
+        <p style="color:var(--gray-text);margin-bottom:2rem">Years of delivering successful technology solutions that stand the test of time</p>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
           <div style="background:rgba(255,255,255,.07);border-radius:var(--radius-sm);padding:1rem">
             <div style="font-size:1.5rem;font-weight:800;color:var(--accent2-color)">50+</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.6)">Team Members</div>
+            <div style="font-size:.8rem;color:var(--gray-text)">Team Members</div>
           </div>
           <div style="background:rgba(255,255,255,.07);border-radius:var(--radius-sm);padding:1rem">
             <div style="font-size:1.5rem;font-weight:800;color:var(--primary-color)">3</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.6)">Global Markets</div>
+            <div style="font-size:.8rem;color:var(--gray-text)">Global Markets</div>
           </div>
         </div>
       </div>
@@ -153,26 +145,26 @@
 <section style="background:var(--dark-bg)">
   <div class="container">
     <div class="section-header fade-in">
-      <div class="badge badge-white">Worldwide Reach</div>
-      <h2 style="color:#fff">Trusted by <span class="gradient-text">Global Enterprises</span></h2>
-      <p style="color:rgba(255,255,255,.7)">Our expertise transcends geographical boundaries. With a diverse clientele spanning Fortune 500 companies, innovative startups, and government institutions across North America, Europe, and Asia Pacific, we understand the nuances of global markets and deliver solutions that resonate across cultures and business environments.</p>
+      <div class="badge badge-primary">Worldwide Reach</div>
+      <h2 style="color:var(--dark-text)">Trusted by <span class="gradient-text">Global Enterprises</span></h2>
+      <p style="color:var(--gray-text)">Our expertise transcends geographical boundaries. With a diverse clientele spanning Fortune 500 companies, innovative startups, and government institutions across North America, Europe, and Asia Pacific, we understand the nuances of global markets and deliver solutions that resonate across cultures and business environments.</p>
     </div>
 
     <div class="grid-3" style="gap:2rem">
       <div class="card-dark fade-in" style="text-align:center">
         <div style="font-size:2.5rem;margin-bottom:1rem">🇺🇸</div>
-        <h4 style="color:#fff;margin-bottom:.75rem">North America</h4>
-        <p style="font-size:.88rem;color:rgba(255,255,255,.65)">Serving Fortune 500 companies with enterprise-grade solutions and digital transformation</p>
+        <h4 style="color:var(--dark-text);margin-bottom:.75rem">North America</h4>
+        <p style="font-size:.88rem;color:var(--gray-text)">Serving Fortune 500 companies with enterprise-grade solutions and digital transformation</p>
       </div>
       <div class="card-dark fade-in fade-in-delay-1" style="text-align:center">
         <div style="font-size:2.5rem;margin-bottom:1rem">🇪🇺</div>
-        <h4 style="color:#fff;margin-bottom:.75rem">Europe</h4>
-        <p style="font-size:.88rem;color:rgba(255,255,255,.65)">Supporting GDPR-compliant solutions and digital innovation across diverse European markets</p>
+        <h4 style="color:var(--dark-text);margin-bottom:.75rem">Europe</h4>
+        <p style="font-size:.88rem;color:var(--gray-text)">Supporting GDPR-compliant solutions and digital innovation across diverse European markets</p>
       </div>
       <div class="card-dark fade-in fade-in-delay-2" style="text-align:center">
         <div style="font-size:2.5rem;margin-bottom:1rem">🌏</div>
-        <h4 style="color:#fff;margin-bottom:.75rem">Asia Pacific</h4>
-        <p style="font-size:.88rem;color:rgba(255,255,255,.65)">Driving technological advancement and scaling solutions across the world's fastest-growing markets</p>
+        <h4 style="color:var(--dark-text);margin-bottom:.75rem">Asia Pacific</h4>
+        <p style="font-size:.88rem;color:var(--gray-text)">Driving technological advancement and scaling solutions across the world's fastest-growing markets</p>
       </div>
     </div>
   </div>
@@ -264,9 +256,9 @@
 
     <!-- Careers CTA -->
     <div style="background:var(--dark-bg);border-radius:var(--radius-lg);padding:3rem;text-align:center" class="fade-in">
-      <div class="badge badge-white" style="margin-bottom:1rem"><i class="fas fa-briefcase"></i> Join Our Team</div>
-      <h3 style="color:#fff;margin-bottom:.75rem">Ready to Join Our Team?</h3>
-      <p style="color:rgba(255,255,255,.7);max-width:480px;margin:0 auto 1.5rem">We're always looking for talented individuals who share our passion for technology and innovation.</p>
+      <div class="badge badge-primary" style="margin-bottom:1rem"><i class="fas fa-briefcase"></i> Join Our Team</div>
+      <h3 style="color:var(--dark-text);margin-bottom:.75rem">Ready to Join Our Team?</h3>
+      <p style="color:var(--gray-text);max-width:480px;margin:0 auto 1.5rem">We're always looking for talented individuals who share our passion for technology and innovation.</p>
       <a href="/contact" class="btn btn-primary btn-lg">
         <i class="fas fa-paper-plane"></i> Explore Careers
       </a>
@@ -398,7 +390,7 @@
 <!-- CTA -->
 <section class="cta-section">
   <div class="container">
-    <div class="badge badge-white" style="margin-bottom:1.25rem">Let's Work Together</div>
+    <div class="badge badge-primary" style="margin-bottom:1.25rem">Let's Work Together</div>
     <h2>Ready to Experience the Kolabix Difference?</h2>
     <p>Let's discuss how our experience, expertise, and values can drive your next digital transformation project.</p>
     <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
@@ -426,7 +418,7 @@
         <a href="/about" class="footer-link">About Us</a>
         <a href="/pricing" class="footer-link">Services &amp; Pricing</a>
         <a href="/digidinez" class="footer-link">DigiDinez</a>
-        <a href="/ai-agent-development" class="footer-link">AI Agents</a>
+        <a href="/agentic-ai" class="footer-link">AI Agents</a>
         <a href="/ai-chatbot-solutions" class="footer-link">AI Chatbot for SMBs</a>
         <a href="/ai-chatbot-business" class="footer-link">AI Chatbot Business</a>
         <a href="/industries" class="footer-link">Industries</a>
@@ -435,7 +427,7 @@
       </div>
       <div>
         <p class="footer-heading">Our Services</p>
-        <a href="/ai-agent-development" class="footer-link">AI Agent Development</a>
+        <a href="/agentic-ai" class="footer-link">AI Agent Development</a>
         <a href="/pricing" class="footer-link">Custom Software Development</a>
         <a href="/pricing" class="footer-link">Cloud Solutions</a>
         <a href="/pricing" class="footer-link">Data Analytics &amp; AI</a>
@@ -444,7 +436,7 @@
       </div>
       <div>
         <p class="footer-heading">Stay Updated</p>
-        <p style="font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
+        <p style="font-size:.88rem;color:var(--gray-text);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
         <form class="newsletter-form" onsubmit="return false">
           <input type="email" class="newsletter-input" placeholder="Enter your email" aria-label="Email address">
           <button type="submit" class="newsletter-btn">Subscribe</button>

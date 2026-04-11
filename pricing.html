@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
@@ -22,14 +22,14 @@
       display: flex;
       align-items: center;
       gap: .5rem;
-      background: rgba(255,255,255,.1);
-      border: 1px solid rgba(255,255,255,.2);
+      background: rgba(0,0,0,.05);
+      border: 1px solid rgba(0,0,0,.1);
       border-radius: var(--radius-full);
       padding: .4rem 1rem;
-      color: #fff;
+      color: var(--dark-text);
       font-size: .88rem;
     }
-    .pricing-badge-stat i { color: var(--accent2-color); }
+    .pricing-badge-stat i { color: var(--primary-color); }
   </style>
 </head>
 <body>
@@ -40,27 +40,19 @@
     <nav class="nav-inner">
       <a href="/" class="nav-logo"><img src="assets/images/logo.png" alt="Kolabix Logo"></a>
       <div class="nav-links">
-        <a href="/about" class="nav-link">About Us</a>
-        <div class="nav-dropdown">
-          <button class="dropdown-toggle">Services &amp; Pricing <i class="fas fa-chevron-down"></i></button>
-          <div class="dropdown-menu">
-            <a href="/pricing" class="dropdown-item"><i class="fas fa-list-ul"></i> Services &amp; Pricing Overview</a>
-            <a href="/digidinez" class="dropdown-item"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez – Restaurant Menus</a>
-            <a href="/ai-agent-development" class="dropdown-item"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents Development</a>
-          </div>
-        </div>
+        <a href="/about" class="nav-link">About us</a>
+        <a href="/agentic-ai" class="nav-link">Agentic AI</a>
         <a href="/industries" class="nav-link">Industries Served</a>
+        <a href="/pricing" class="nav-link">Pricing</a>
         <a href="/contact" class="btn btn-primary">Request a Quote</a>
       </div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
     </nav>
     <div class="mobile-nav" id="mobile-nav">
-      <a href="/about" class="mobile-nav-link">About Us</a>
-      <div class="mobile-nav-section-title">Services &amp; Pricing</div>
-      <a href="/pricing" class="mobile-nav-sub"><i class="fas fa-list-ul" style="color:var(--primary-color)"></i> Overview</a>
-      <a href="/digidinez" class="mobile-nav-sub"><i class="fas fa-qrcode" style="color:var(--accent-color)"></i> DigiDinez</a>
-      <a href="/ai-agent-development" class="mobile-nav-sub"><i class="fas fa-robot" style="color:var(--accent2-color)"></i> AI Agents</a>
+      <a href="/about" class="mobile-nav-link">About us</a>
+      <a href="/agentic-ai" class="mobile-nav-link">Agentic AI</a>
       <a href="/industries" class="mobile-nav-link">Industries Served</a>
+      <a href="/pricing" class="mobile-nav-link">Pricing</a>
       <div style="padding:1rem 1.5rem"><a href="/contact" class="btn btn-primary w-full" style="justify-content:center">Request a Quote</a></div>
     </div>
   </div>
@@ -70,7 +62,7 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content" style="max-width:700px;text-align:center;margin:0 auto">
-      <div class="badge badge-white mb-3 fade-in"><i class="fas fa-globe"></i> Global Enterprise Solutions</div>
+      <div class="badge badge-primary mb-3 fade-in"><i class="fas fa-globe"></i> Global Enterprise Solutions</div>
       <h1 class="fade-in fade-in-delay-1">Global Enterprise <span class="gradient-text">Solutions</span></h1>
       <p class="fade-in fade-in-delay-2" style="max-width:580px;margin:0 auto">World-class technology solutions with transparent pricing. Trusted by Fortune 500 companies and innovative startups worldwide.</p>
       <div class="pricing-top-bar fade-in fade-in-delay-3" style="justify-content:center">
@@ -324,29 +316,29 @@
       <div class="badge badge-accent" style="margin-bottom:1.25rem">
         <i class="fas fa-certificate"></i> 100% Risk-Free Guarantee
       </div>
-      <h2 style="color:#fff;margin-bottom:1rem">Your Satisfaction is Guaranteed</h2>
-      <p style="color:rgba(255,255,255,.7);max-width:560px;margin:0 auto 2.5rem">We're so confident in our work quality that we offer a complete money-back guarantee. If you're not satisfied with our service, we'll refund your payment — no questions asked.</p>
+      <h2 style="color:var(--dark-text);margin-bottom:1rem">Your Satisfaction is Guaranteed</h2>
+      <p style="color:var(--gray-text);max-width:560px;margin:0 auto 2.5rem">We're so confident in our work quality that we offer a complete money-back guarantee. If you're not satisfied with our service, we'll refund your payment — no questions asked.</p>
       <div class="grid-3" style="max-width:700px;margin:0 auto 2.5rem;gap:1.5rem">
         <div style="text-align:center">
           <div style="width:3.5rem;height:3.5rem;border-radius:50%;background:rgba(255,168,74,.15);display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;font-size:1.3rem">
             <i class="fas fa-calendar-check" style="color:var(--accent-color)"></i>
           </div>
-          <h4 style="color:#fff;font-size:.95rem;margin-bottom:.3rem">30-Day Window</h4>
-          <p style="font-size:.83rem;color:rgba(255,255,255,.6)">Full refund available within 30 days of project delivery</p>
+          <h4 style="color:var(--dark-text);font-size:.95rem;margin-bottom:.3rem">30-Day Window</h4>
+          <p style="font-size:.83rem;color:var(--gray-text)">Full refund available within 30 days of project delivery</p>
         </div>
         <div style="text-align:center">
           <div style="width:3.5rem;height:3.5rem;border-radius:50%;background:rgba(51,217,178,.15);display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;font-size:1.3rem">
             <i class="fas fa-comments" style="color:var(--accent2-color)"></i>
           </div>
-          <h4 style="color:#fff;font-size:.95rem;margin-bottom:.3rem">No Questions Asked</h4>
-          <p style="font-size:.83rem;color:rgba(255,255,255,.6)">Simple refund process without lengthy explanations required</p>
+          <h4 style="color:var(--dark-text);font-size:.95rem;margin-bottom:.3rem">No Questions Asked</h4>
+          <p style="font-size:.83rem;color:var(--gray-text)">Simple refund process without lengthy explanations required</p>
         </div>
         <div style="text-align:center">
           <div style="width:3.5rem;height:3.5rem;border-radius:50%;background:rgba(88,81,219,.2);display:flex;align-items:center;justify-content:center;margin:0 auto .75rem;font-size:1.3rem">
             <i class="fas fa-bolt" style="color:var(--accent4-color)"></i>
           </div>
-          <h4 style="color:#fff;font-size:.95rem;margin-bottom:.3rem">Quick Processing</h4>
-          <p style="font-size:.83rem;color:rgba(255,255,255,.6)">Refunds processed within 5–7 business days</p>
+          <h4 style="color:var(--dark-text);font-size:.95rem;margin-bottom:.3rem">Quick Processing</h4>
+          <p style="font-size:.83rem;color:var(--gray-text)">Refunds processed within 5–7 business days</p>
         </div>
       </div>
       <a href="/contact" class="btn btn-primary btn-lg"><i class="fas fa-rocket"></i> Start Your Project</a>
@@ -396,7 +388,7 @@
         <a href="/about" class="footer-link">About Us</a>
         <a href="/pricing" class="footer-link">Services &amp; Pricing</a>
         <a href="/digidinez" class="footer-link">DigiDinez</a>
-        <a href="/ai-agent-development" class="footer-link">AI Agents</a>
+        <a href="/agentic-ai" class="footer-link">AI Agents</a>
         <a href="/ai-chatbot-solutions" class="footer-link">AI Chatbot for SMBs</a>
         <a href="/ai-chatbot-business" class="footer-link">AI Chatbot Business</a>
         <a href="/industries" class="footer-link">Industries</a>
@@ -405,7 +397,7 @@
       </div>
       <div>
         <p class="footer-heading">Our Services</p>
-        <a href="/ai-agent-development" class="footer-link">AI Agent Development</a>
+        <a href="/agentic-ai" class="footer-link">AI Agent Development</a>
         <a href="/pricing" class="footer-link">Custom Software Development</a>
         <a href="/pricing" class="footer-link">Cloud Solutions</a>
         <a href="/pricing" class="footer-link">Data Analytics &amp; AI</a>
@@ -414,7 +406,7 @@
       </div>
       <div>
         <p class="footer-heading">Stay Updated</p>
-        <p style="font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
+        <p style="font-size:.88rem;color:var(--gray-text);margin-bottom:1rem">Get the latest news about technology trends and our services.</p>
         <form class="newsletter-form" onsubmit="return false">
           <input type="email" class="newsletter-input" placeholder="Enter your email" aria-label="Email address">
           <button type="submit" class="newsletter-btn">Subscribe</button>
