@@ -4,28 +4,28 @@
 
 /* ── 1. Design Tokens ──────────────────────────────────────── */
 :root {
-  --primary-color: #5851DB;
-  --primary-hover: #3E3BB3;
-  --accent-color: #FFA84A;
-  --accent2-color: #33D9B2;
-  --accent3-color: #FF5776;
-  --accent4-color: #45BCFF;
-  --secondary-btn: #E858DB;
-  --secondary-btn-hover: #C241B3;
+  --primary-color: #4F46E5;
+  --primary-hover: #4338CA;
+  --accent-color: #06B6D4;
+  --accent2-color: #10B981;
+  --accent3-color: #F43F5E;
+  --accent4-color: #8B5CF6;
+  --secondary-btn: #3B82F6;
+  --secondary-btn-hover: #2563EB;
 
-  --dark-bg: #1E1E2E;
-  --dark-bg-2: #2a2a3e;
-  --light-bg: #F5F5FF;
-  --medium-bg: #E6E6FB;
+  --dark-bg: #F8FAFC;
+  --dark-bg-2: #FFFFFF;
+  --light-bg: #F1F5F9;
+  --medium-bg: #E2E8F0;
 
-  --dark-text: #222222;
-  --gray-text: #6F6F6F;
+  --dark-text: #0F172A;
+  --gray-text: #475569;
   --light-text: #FFFFFF;
-  --border-light: #DFDFDF;
-  --border-dark: #3C3C4D;
+  --border-light: #E2E8F0;
+  --border-dark: #CBD5E1;
 
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Nunito', sans-serif;
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
 
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -213,14 +213,14 @@ section { padding: 5rem 0; }
 }
 
 .card-dark {
-  background: var(--dark-bg-2);
-  border: 1px solid var(--border-dark);
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   padding: 2rem;
   transition: all var(--transition);
 }
 .card-dark:hover {
-  box-shadow: 0 8px 32px rgba(88,81,219,.25);
+  box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
 }
 
@@ -297,12 +297,12 @@ section { padding: 5rem 0; }
 .hero-content { position: relative; z-index: 1; }
 
 .hero h1 {
-  color: #fff;
+  color: var(--dark-text);
   font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 1.25rem;
 }
 .hero p {
-  color: rgba(255,255,255,.75);
+  color: var(--gray-text);
   font-size: 1.1rem;
   margin-bottom: 2rem;
   max-width: 600px;
@@ -327,10 +327,10 @@ section { padding: 5rem 0; }
   font-family: var(--font-heading);
   font-size: 1.8rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--dark-text);
   display: block;
 }
-.hero-stat-label { font-size: 0.8rem; color: rgba(255,255,255,.6); }
+.hero-stat-label { font-size: 0.8rem; color: var(--gray-text); }
 
 /* ── 11. Navigation ─────────────────────────────────────────── */
 .site-header {
@@ -488,9 +488,10 @@ section { padding: 5rem 0; }
 
 /* ── 12. Footer ─────────────────────────────────────────────── */
 .site-footer {
-  background: var(--dark-bg);
-  color: rgba(255,255,255,.75);
+  background: #F8FAFC;
+  color: var(--gray-text);
   padding: 4.5rem 0 0;
+  border-top: 1px solid var(--border-light);
 }
 
 .footer-grid {
@@ -498,42 +499,42 @@ section { padding: 5rem 0; }
   grid-template-columns: 2fr 1fr 1fr 1.5fr;
   gap: 3rem;
   padding-bottom: 3rem;
-  border-bottom: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--border-light);
 }
 @media (max-width: 1024px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px)  { .footer-grid { grid-template-columns: 1fr; gap: 2rem; } }
 
 .footer-logo img { height: 44px; width: auto; margin-bottom: 1rem; }
-.footer-desc { font-size: 0.9rem; line-height: 1.7; color: rgba(255,255,255,.6); margin-bottom: 1.5rem; }
+.footer-desc { font-size: 0.9rem; line-height: 1.7; color: var(--gray-text); margin-bottom: 1.5rem; }
 
 .footer-contact-item {
   display: flex;
   align-items: center;
   gap: 0.6rem;
   font-size: 0.88rem;
-  color: rgba(255,255,255,.7);
+  color: var(--gray-text);
   margin-bottom: 0.6rem;
   transition: color var(--transition);
 }
-.footer-contact-item:hover { color: #fff; }
-.footer-contact-item i { color: var(--accent2-color); width: 1rem; }
+.footer-contact-item:hover { color: var(--primary-color); }
+.footer-contact-item i { color: var(--primary-color); width: 1rem; }
 
 .footer-heading {
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1rem;
-  color: #fff;
+  color: var(--dark-text);
   margin-bottom: 1.25rem;
 }
 
 .footer-link {
   display: block;
   font-size: 0.88rem;
-  color: rgba(255,255,255,.65);
+  color: var(--gray-text);
   margin-bottom: 0.6rem;
   transition: color var(--transition);
 }
-.footer-link:hover { color: var(--accent2-color); }
+.footer-link:hover { color: var(--primary-color); }
 
 .newsletter-form {
   display: flex;
@@ -544,15 +545,15 @@ section { padding: 5rem 0; }
   flex: 1;
   padding: 0.65rem 1rem;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--border-dark);
-  background: rgba(255,255,255,.07);
-  color: #fff;
+  border: 1px solid var(--border-light);
+  background: #fff;
+  color: var(--dark-text);
   font-family: var(--font-body);
   font-size: 0.88rem;
   outline: none;
   transition: border-color var(--transition);
 }
-.newsletter-input::placeholder { color: rgba(255,255,255,.35); }
+.newsletter-input::placeholder { color: var(--gray-text); }
 .newsletter-input:focus { border-color: var(--primary-color); }
 .newsletter-btn {
   padding: 0.65rem 1.1rem;
@@ -574,7 +575,7 @@ section { padding: 5rem 0; }
   gap: 1rem;
   padding: 1.5rem 0;
 }
-.footer-copy { font-size: 0.8rem; color: rgba(255,255,255,.45); }
+.footer-copy { font-size: 0.8rem; color: var(--gray-text); }
 .footer-trust {
   display: flex;
   align-items: center;
@@ -585,9 +586,9 @@ section { padding: 5rem 0; }
   align-items: center;
   gap: 0.4rem;
   font-size: 0.8rem;
-  color: rgba(255,255,255,.5);
+  color: var(--gray-text);
 }
-.footer-trust-item i { color: var(--accent2-color); }
+.footer-trust-item i { color: var(--primary-color); }
 
 /* ── 13. Feature List Items ─────────────────────────────────── */
 .feature-list { list-style: none; }
